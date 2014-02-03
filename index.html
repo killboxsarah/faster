@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Foundation 4</title>
+  <title>Faster Skates</title>
   
   <link rel="stylesheet" href="css/template.css"> 
   <link rel="stylesheet" href="css/faster.css">
@@ -12,33 +12,20 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,700' rel='stylesheet' type='text/css'/>
   <link rel="shortcut icon" type="image/x-icon" href="im/favicon.ico"/>
   
-  <script src="js/vendor/custom.modernizr.js"></script>
+  <script src="bower_components/modernizr/modernizr.js"></script>
 
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
-  <script type="text/javascript" src="js/mixitup/jquery.mixitup.js"></script> 
-  <script type="text/javascript" src="js/sticky_nav/jquery.sticky.js"></script>
-
-  <script type="text/javascript">
-    $(function(){
-      $('#Grid').mixitup();
-    });    
-
-    $(window).load(function(){
-      $(".sticky-element").sticky({ topSpacing: 0});
-    });
-
-    $(document).ready(function(){
-     $("ul").css("display","inline-block");
-      });
-  </script>
+  <script type="text/javascript" src="bower_components/mixitup/jquery.mixitup.min.js"></script> 
+  <script type="text/javascript" src="bower_components/sticky/jquery.sticky.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 
 </head>
 <body>
 
 <!-- BANNER -->
   <div class="banner">
-    <img src="img/nav_top.svg"/>
+    <!-- <img src="img/nav_top.svg"/> -->
     <style>
     .banner{
       z-index: 15;
@@ -115,18 +102,236 @@
     <div class="wrapper">
     
       <!-- TEMP PRODUCT IMAGES & FILTER CONTROLS -->
-        <div class="controls large-4 small-4 columns"> 
-         <center> <div class="button filter" data-filter="all">Products</div></center>
-            <img src="img/lune.jpg">
-        </div>
-        <div class="controls large-4 small-4 columns"> 
-          <center><div class="button filter" data-filter="complete">Wheels</div></center>
-            <img src="img/grip.jpg">
-        </div>
-        <div class="controls large-4 small-4 columns"> 
-         <center><div class="button filter" data-filter="tire">Tire</div></center>
-            <img src="img/rojo.jpg">
-        </div>
+        
+        <!-- GRID -->
+      <ul id="Grid">
+        <li class="mix nav">
+         <div class="nav_image filter" data-filter="wheel nav">Wheels</div>
+      </li>
+      <li class="mix nav">
+          <div class="nav_image filter" data-filter="tire nav">Tires</div>
+      </li>
+      <li class="mix nav">
+         <div class="nav_image filter" data-filter="component nav">Components</div>
+      </li>
+
+<!--DEMILUNE COLLECTION -->
+          <li class="mix wheel land" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="side s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="side s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Demilune_SD_Wood.jpg">
+              </div>
+            </div></li> 
+
+        <li class="mix tire" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="side s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="side s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Demilune_SDTire_Wood.jpg">
+              </div>
+            </div></li>
+
+<!--DEMIROJO COLLECTION -->
+          <li class="mix wheel land" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="side s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="side s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Demirojo_SD_Wood.jpg">
+              </div>
+            </div></li> 
+
+        <li class="mix tire" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="side s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="side s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Demirojo_SDTire_Wood.jpg">
+              </div>
+            </div></li>
+
+<!--DEMIURGE COLLECTION -->
+          <li class="mix wheel land" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="side s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="side s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Demiurge_SD_Wood.jpg">
+              </div>
+            </div></li> 
+
+        <li class="mix tire" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="side s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="side s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Demiurge_SDTire_Wood.jpg">
+              </div>
+            </div></li>
+
+<!--STRIDE COLLECTION -->
+          <li class="mix wheel" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="side s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="side s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Stride_SD_Wood.jpg">
+              </div>
+            </div></li> 
+
+        <li class="mix tire" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="side s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="side s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Stride_SDTire_Wood.jpg">
+              </div>
+            </div></li>
+
+<!--GRIP COLLECTION -->
+          <li class="mix wheel" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="side s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="side s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Grip_SD_Wood.jpg">
+              </div>
+            </div></li> 
+
+        <li class="mix tire" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="side s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="side s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Grip_SDTire_Wood.jpg">
+              </div>
+            </div></li>
+
+<!--STARR COLLECTION -->
+          <li class="mix wheel" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="side s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="side s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Starr_SD_Wood.jpg">
+              </div>
+            </div></li> 
+
+        <li class="mix tire" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="side s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="side s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Starr_SDTire_Wood.jpg">
+              </div>
+            </div></li>
+
+             <li class="mix component" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="puller s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="puller s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/Bearing puller.jpg">
+              </div>
+            </div></li>
+
+            <li class="mix component" data-cat="2">
+            <div class="content">
+              <div class="spinner wf">
+                <span class="cclip s_left">
+                  <span class="fill"></span>
+                </span>
+                <span class="cclip s_right">
+                  <span class="fill"></span>
+                </span>
+              </div>
+              <div class="img_wrapper anim150 loaded">
+                <img src="img/products/C-clip.jpg">
+              </div>
+            </div></li>
+
+    </div>
 
           <hr/>
 <!-- End PRODUCTS-->
@@ -234,7 +439,7 @@
     <div class="large-12 columns">
       <div class="large-6 small-4 columns">
         <div id="container">
-            <form action="page_location" method="POST">
+            <form action="" method="POST">
               <fieldset>
                 <div class="field">
                   <label for="name">Name*</label>
@@ -275,44 +480,8 @@
     <img src="images/social_media.svg"/>
     </div>
   </div>
-
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
   
-  <script src="js/foundation/foundation.js"></script>
-  
-  <!--
-  
-  <script src="js/foundation/foundation.interchange.js"></script>
-  
-  <script src="js/foundation/foundation.abide.js"></script>
-  
-  <script src="js/foundation/foundation.dropdown.js"></script>
-  
-  <script src="js/foundation/foundation.placeholder.js"></script>
-  
-  <script src="js/foundation/foundation.forms.js"></script>
-  
-  <script src="js/foundation/foundation.alerts.js"></script>
-  
-  <script src="js/foundation/foundation.magellan.js"></script -->
-  
-  <!--script src="js/foundation/foundation.tooltips.js"></script>
-  
-  <script src="js/foundation/foundation.clearing.js"></script>
-  x
-  <script src="js/foundation/foundation.cookie.js"></script>
-  
-  <script src="js/foundation/foundation.joyride.js"></script>
-  
-  <script src="js/foundation/foundation.orbit.js"></script>
-  
-  <script src="js/foundation/foundation.section.js"></script>
-  
-  <script src="js/foundation/foundation.topbar.js"></script-->
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
 </body>
 </html>
 
