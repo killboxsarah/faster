@@ -1134,7 +1134,7 @@ dl {
   font-family: inherit; }
 
 ul, ol {
-  margin-left: ; }
+  margin-left: 5px; }
 
 /* Unordered Lists */
 ul li ul,
@@ -1461,11 +1461,11 @@ button, .button {
 
 @media only screen {
   button, .button {
-    /*-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     -webkit-transition: background-color 300ms ease-out;
     -moz-transition: background-color 300ms ease-out;
-    transition: background-color 300ms ease-out; }*/
+    transition: background-color 300ms ease-out; }
     button:active, .button:active {
       -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
       box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; }
@@ -4158,6 +4158,7 @@ ul.pagination {
     border: none;
     background-position: center;
     padding-top: 20%;
+  }
 
 
   .sticky-element {
@@ -4455,13 +4456,14 @@ ul.pagination {
         border-radius: 999px; }
       div.switch.round label {
         padding: 0 0.5625em; }
+}
 
   @-webkit-keyframes webkitSiblingBugfix {
     from {
       position: relative; }
 
     to {
-      position: relative; } } }
+      position: relative; } } 
 [data-magellan-expedition] {
   background: white;
   z-index: 50;
