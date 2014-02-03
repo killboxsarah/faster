@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Faster Skates</title>
+
+	<link rel="stylesheet" href="../../css/template.css"> 
+	<link rel="stylesheet" href="../../css/faster.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,700' rel='stylesheet' type='text/css'/>
+	<link rel="shortcut icon" type="image/x-icon" href="im/favicon.ico"/>
+  
+	<script src="../../js/vendor/custom.modernizr.js"></script>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<script type="text/javascript" src="../../js/mixitup/jquery.mixitup.js"></script> 
+	<script type="text/javascript" src="../../js/sticky_nav/jquery.sticky.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="../lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="../source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="../source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<script type="text/javascript">
+	$(window).load(function(){
+	  $(".sticky-element").sticky({ topSpacing: 0});
+	  });
+
+	$(document).ready(function(){
+	  $("ul").css("display","inline-block");
+	  });
+
+	$(document).ready(function() {
+		$('.fancybox').fancybox();
+		});
+	
+	$(function(){
+	  $('#Grid').mixitup();
+	});    
+	</script>
+
+</head>
+<body>
+
+<!-- BANNER -->
+<div class="row">
+<!--   <div class="banner"> -->
+  <div class="panel bleed">
+  	<style>
+  	.bleed {
+  		background-color: #9d9d9f;
+  		padding-bottom: 0px;
+  		padding-top: 0px;
+  		padding-left: 0px;
+  		padding-right: 0px;
+  	}
+  	</style>
+    <img src="../../img/nav_top.svg"/>
+    <!--style>
+    .banner{
+      z-index: 15;
+      position: absolute;
+      margin-top: -40px;
+      }</style-->
+  </div>
+</div>
+
+<!-- NAVIGATION -->
+<div class="row">
+  <div class="gap">
+  	</style>
+     <!--style>
+      .cherry {
+        margin-top: 35px;
+        padding-top: 100px;}
+      </style-->
+    </div>
+
+<div class="sticky-element"> 
+  <ul class="button-group">
+    <style >
+    .sticky-element {
+      z-index: 5;
+      margin: 0% auto;
+      left: 0;
+      right: 0;
+      max-width: 1000px;
+      max-height: 50px;
+      background: #161616;
+      opacity: .85;
+      box-sizing: border-box;
+    }
+    </style>
+    <li><a href="#" class="button">SHOPPE</a></li>
+    <li><a href="#" class="button">ABOUT</a></li>
+  </ul>
+</div> 
+
+
+<!-- <div class="row"> -->
+  <div class="panel about">
+
+    <img src="../../img/banner.jpg"/>
+    
+      <div class="row">
+        <div class="large-8 tag-line"> 
+          <div class="small-offset-6 border">
+            <h4>TRUE TO THE ART.</h4>
+            <style>
+            .tag-line {
+              text-align: center;
+            }
+            </style>
+          </div>
+        </div>
+
+      <div class="large-12 small-6 columns">
+        <p>Suspendisse ultrices ornare tempor. Aenean eget ultricies libero. Phasellus non ipsum eros. Vivamus at dignissim massa. Aenean dolor libero, blandit quis interdum et, malesuada nec ligula. Nullam erat erat, eleifend sed pulvinar ac. Suspendisse ultrices ornare tempor. Aenean eget ultricies libero.
+      </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-8 tag-line">
+         <div class="small-offset-6 border">
+          <h4>OUR PRODUCTS</h4>
+        </div>
+      </div>
+    </div>
+
+<!-- End About Us -->
+<!-- BEGIN PRODUCTS -->  
+
+<div class="wrapper">
+      
+      <!-- FILTER CONTROLS -->
+      <div class="controls large-12 small-12 columns">  
+          <div class="button filter large-4 small-4 columns" data-filter="all">Products</div>
+          <div class="button filter large-4 small-4 columns" data-filter="complete">Wheels</div>
+          <div class="button filter large-4 small-4 columns" data-filter="tire">Tire</div>
+      </div>
+
+<ul id="Grid">
+
+	<li class="mix complete land">
+		<div class="content">
+          <div class="spinner wf">
+            <span class="side s_left">
+              <span class="fill"></span>
+            </span>
+            <span class="side s_right">
+              <span class="fill"></span>
+            </span>
+          </div>
+            <div class="img_wrapper anim150 loaded">
+				<a class="fancybox" href="wood/Demilune_SD_Wood.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="wood/Demilune_SD_Wood.jpg" alt="" /></a>
+		  	</div>
+         </div></li> 
+
+	<li class="mix tire">
+		<div class="content">
+          <div class="spinner wf">
+            <span class="side s_left">
+              <span class="fill"></span>
+            </span>
+            <span class="side s_right">
+              <span class="fill"></span>
+            </span>
+          </div>
+            <div class="img_wrapper anim150 loaded">
+				<a class="fancybox" href="wood/Demilune_SDTire_Wood.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="wood/Demilune_SDTire_Wood.jpg" alt="" /></a>
+		  	</div>
+         </div></li> 
+
+	<li class="mix complete land">
+		<div class="content">
+          <div class="spinner wf">
+            <span class="side s_left">
+              <span class="fill"></span>
+            </span>
+            <span class="side s_right">
+              <span class="fill"></span>
+            </span>
+          </div>
+            <div class="img_wrapper anim150 loaded">
+				<a class="fancybox" href="wood/Demirojo_SD_Wood.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="wood/Demirojo_SD_Wood.jpg" alt="" /></a>
+		  	</div>
+         </div></li> 
+
+	<li class="mix tire">
+		<div class="content">
+          <div class="spinner wf">
+            <span class="side s_left">
+              <span class="fill"></span>
+            </span>
+            <span class="side s_right">
+              <span class="fill"></span>
+            </span>
+          </div>
+            <div class="img_wrapper anim150 loaded">
+				<a class="fancybox" href="wood/Demirojo_SDTire_Wood.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="wood/Demirojo_SDTire_Wood.jpg" alt="" /></a>
+		  	</div>
+         </div></li> 
+
+	<li class="mix complete land">
+		<div class="content">
+          <div class="spinner wf">
+            <span class="side s_left">
+              <span class="fill"></span>
+            </span>
+            <span class="side s_right">
+              <span class="fill"></span>
+            </span>
+          </div>
+            <div class="img_wrapper anim150 loaded">
+				<a class="fancybox" href="wood/Demiurge_SD_Wood.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="wood/Demiurge_SD_Wood.jpg" alt="" /></a>
+		  	</div>
+         </div></li> 
+
+	<li class="mix tire">
+		<div class="content">
+          <div class="spinner wf">
+            <span class="side s_left">
+              <span class="fill"></span>
+            </span>
+            <span class="side s_right">
+              <span class="fill"></span>
+            </span>
+          </div>
+            <div class="img_wrapper anim150 loaded">
+				<a class="fancybox" href="wood/Demiurge_SDTire_Wood.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="wood/Demiurge_SDTire_Wood.jpg" alt="" /></a>
+		  	</div>
+         </div></li> 
+
+	<li class="mix complete">
+		<div class="content">
+          <div class="spinner wf">
+            <span class="side s_left">
+              <span class="fill"></span>
+            </span>
+            <span class="side s_right">
+              <span class="fill"></span>
+            </span>
+          </div>
+            <div class="img_wrapper anim150 loaded">
+				<a class="fancybox" href="wood/Stride_SD_Wood.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="wood/Stride_SD_Wood.jpg" alt="" /></a>
+		  	</div>
+         </div></li> 
+
+	<li class="mix tire">
+		<div class="content">
+          <div class="spinner wf">
+            <span class="side s_left">
+              <span class="fill"></span>
+            </span>
+            <span class="side s_right">
+              <span class="fill"></span>
+            </span>
+          </div>
+            <div class="img_wrapper anim150 loaded">
+				<a class="fancybox" href="wood/Stride_SDTire_Wood.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="wood/Stride_SDTire_Wood.jpg" alt="" /></a>
+		  	</div>
+         </div></li> 
+
+	<li class="mix complete">
+		<div class="content">
+          <div class="spinner wf">
+            <span class="side s_left">
+              <span class="fill"></span>
+            </span>
+            <span class="side s_right">
+              <span class="fill"></span>
+            </span>
+          </div>
+            <div class="img_wrapper anim150 loaded">
+				<a class="fancybox" href="wood/Grip_SD_Wood.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="wood/Grip_SD_Wood.jpg" alt="" /></a>
+		  	</div>
+         </div></li> 
+
+	<li class="mix tire">
+		<div class="content">
+          <div class="spinner wf">
+            <span class="side s_left">
+              <span class="fill"></span>
+            </span>
+            <span class="side s_right">
+              <span class="fill"></span>
+            </span>
+          </div>
+            <div class="img_wrapper anim150 loaded">
+				<a class="fancybox" href="wood/Grip_SDTire_Wood.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="wood/Grip_SDTire_Wood.jpg" alt="" /></a>
+		  	</div>
+         </div></li> 
+
+	<li class="mix complete">
+		<div class="content">
+          <div class="spinner wf">
+            <span class="side s_left">
+              <span class="fill"></span>
+            </span>
+            <span class="side s_right">
+              <span class="fill"></span>
+            </span>
+          </div>
+            <div class="img_wrapper anim150 loaded">
+				<a class="fancybox" href="wood/Starr_SD_Wood.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="wood/Starr_SD_Wood.jpg" alt="" /></a>
+		  	</div>
+         </div></li> 
+
+<li class="mix tire">
+		<div class="content">
+          <div class="spinner wf">
+            <span class="side s_left">
+              <span class="fill"></span>
+            </span>
+            <span class="side s_right">
+              <span class="fill"></span>
+            </span>
+          </div>
+            <div class="img_wrapper anim150 loaded">
+				<a class="fancybox" href="wood/Starr_SDTire_Wood.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="wood/Starr_SDTire_Wood.jpg" alt="" /></a>
+		  	</div>
+         </div></li>
+     </div> 
+
+<!-- Contact Container -->       
+  <style>
+  .border {
+    text-align: center;
+    border: 8px solid white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  </style>
+
+   <div class="row">
+      <div class="large-8 tag-line">
+         <div class="small-offset-6 border">
+          <h4>CONTACT US</h4>
+        </div>
+      </div>
+   </div>
+
+
+<!-- MAKE THE TWO PARAGRAPHS BELOW RESPONSIVE FOR SMALLER DEVICES -->
+<div class="row">
+   <div class="large-12 small-12 columns">
+    <div class="large-6 small-12 columns">
+      <p>
+        FASKTER SKATES IS BASED IN AUSTIN TEXAS
+      </br>
+      </br>
+        Faster Skates
+      </br>
+        Austin, TX 78702
+      </br>
+        P: 512.897.3271
+      </br>
+      </br>
+        OR SUBMIT INQUIRY BELOW</p>
+    </div>
+
+    <div class="large-6 small-12 columns">
+      <p>Suspendisse ultrices ornare tempor. Aenean eget ultricies libero. Phasellus non ipsum eros. Vivamus at dignissim massa. Aenean dolor libero, blandit quis interdum et, malesuada nec ligula. Nullam erat erat, eleifend sed pulvinar ac. Suspendisse ultrices ornare tempor. Aenean eget ultricies libero.</p>
+    </div>
+    
+    <div class="large-12 columns">
+      <div class="large-6 small-12 columns">
+        <div id="container">
+            <form action="page_location" method="POST">
+              <fieldset>
+                <div class="field">
+                  <label for="name">Name*</label>
+                  <input type="text" name="name" id="name" placeholder="Your Name" autofocus required maxlength="65">
+                </div>
+                <div class="field">
+                  <label for="email">Email*</label>
+                  <input type="email" name="email" id="email" placeholder="you@example.com" required>
+                </div>
+
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" cols="50" rows="10" placeholder="Type your message..." maxlength="250"></textarea>
+                </div>
+              </fieldset>
+
+              <div class="field">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+    <div class="large-6 small-12 columns">
+    	<div class="holder">
+    		<img src="../../images/social_media.svg"/>
+    	</div>
+    	<style>
+    	.holder {
+    		margin-left: 45px;
+    	}
+    	</style>
+  	</div>
+</div>
+
+  </div>
+  </div>
+ 
+
+  <!--script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script-->
+  
+  <script src="../../js/foundation/foundation.js"></script>
+  
+  <!--
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script -->
+  
+  <!--script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  x
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script-->
+</body>
+</html>
