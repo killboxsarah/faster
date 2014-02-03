@@ -1,0 +1,10 @@
+{
+  "name": "faster-skates-app",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "mixitup": "1.5.6",
+    "sticky": "garand/sticky"
+  }
+}
