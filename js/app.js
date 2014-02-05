@@ -1,3 +1,9 @@
+var faster = {};
+
+faster.initFoundation = function() {
+    $(document).foundation();
+};
+
 $(function(){
 	// initialize mixitup
 	$('#Grid').mixitup({
