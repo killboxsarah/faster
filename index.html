@@ -95,7 +95,7 @@
               <!-- TEMP PRODUCT IMAGES & FILTER CONTROLS -->
                 <!-- GRID -->
               <ul id="Grid">
-                <li class="mix nav wheel">
+                <li class="mix nav wheel" id="wheel">
                  <div class="nav_image filter" data-filter="wheel nav">&nbsp;</div>
               </li>
               <li class="mix nav tire">
@@ -456,17 +456,17 @@
   <script src="bower_components/foundation/js/foundation.min.js"></script>
 
     <script>
-        jQuery(function(){
-             $(".img-swap").hover(
-                  function(){this.src = this.src.replace("../img/roll_over/Wheels.jpg","../img/roll_over/Wheels_Rollover.jpg");},
-                  function(){this.src = this.src.replace("../img/roll_over/Tires.jpg","../img/roll_over/Tires_Rollover.jpg");},
-                  function(){this.src = this.src.replace("../img/roll_over/Components.jpg","../img/roll_over/Components_Rollover.jpg");
-             });
-        });
+        // $(function(){
+        //      $(".img-swap").hover(
+        //           function(){this.src = this.src.replace("../img/roll_over/Wheels.jpg","../img/roll_over/Wheels_Rollover.jpg");},
+        //           function(){this.src = this.src.replace("../img/roll_over/Tires.jpg","../img/roll_over/Tires_Rollover.jpg");},
+        //           function(){this.src = this.src.replace("../img/roll_over/Components.jpg","../img/roll_over/Components_Rollover.jpg");
+        //      });
+        // });
+
+        // $('#wheel').attr('src', 'your image src'); 
+
   </script>
-
-
-  "../img/roll_over/Components.jpg"
 
 </body>
 </html>
