@@ -98,14 +98,14 @@
               <!-- TEMP PRODUCT IMAGES & FILTER CONTROLS -->
                 <!-- GRID -->
               <ul id="Grid">
-                <li class="mix nav">
-                 <div class="nav_image filter" data-filter="wheel nav">Wheels</div>
+                <li class="mix nav wheel">
+                 <div class="nav_image filter" data-filter="wheel nav">&nbsp;</div>
               </li>
-              <li class="mix nav">
-                  <div class="nav_image filter" data-filter="tire nav">Tires</div>
+              <li class="mix nav tire">
+                  <div class="nav_image filter" data-filter="tire nav">&nbsp;</div>
               </li>
-              <li class="mix nav">
-                 <div class="nav_image filter" data-filter="component nav">Components</div>
+              <li class="mix nav component">
+                 <div class="nav_image filter" data-filter="component nav">&nbsp;</div>
               </li>
 
         <!--DEMILUNE COLLECTION -->
@@ -451,6 +451,20 @@
 
 </div>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
+
+    <script>
+        jQuery(function(){
+             $(".img-swap").hover(
+                  function(){this.src = this.src.replace("../img/roll_over/Wheels.jpg","../img/roll_over/Wheels_Rollover.jpg");},
+                  function(){this.src = this.src.replace("../img/roll_over/Tires.jpg","../img/roll_over/Tires_Rollover.jpg");},
+                  function(){this.src = this.src.replace("../img/roll_over/Components.jpg","../img/roll_over/Components_Rollover.jpg");
+             });
+        });
+  </script>
+
+
+  "../img/roll_over/Components.jpg"
+
 </body>
 </html>
 
