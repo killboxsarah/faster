@@ -145,15 +145,33 @@
 .wheel:hover {
     background-image: url("../img/roll_over/Wheels_Rollover.jpg");
     background-repeat: none;
+    cursor: pointer;
+}
+
+.wheel.active_category {
+    background-image: url("../img/roll_over/Wheels_Rollover.jpg");
+    background-repeat: none;
 }
 
 
 .tire:hover {
     background-image: url("../img/roll_over/Tires_Rollover.jpg");
     background-repeat: none;
+    cursor: pointer;
+}
+
+.tire.active_category {
+    background-image: url("../img/roll_over/Tires_Rollover.jpg");
+    background-repeat: none;
 }
 
 .component:hover {
+    background-image: url("../img/roll_over/Components_Rollover.jpg");
+    background-repeat: none;
+    cursor: pointer;
+}
+
+.component.active_category {
     background-image: url("../img/roll_over/Components_Rollover.jpg");
     background-repeat: none;
 }

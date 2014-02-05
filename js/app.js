@@ -39,4 +39,10 @@ $(function(){
     $.each(dealers, function( index, value ) {
         L.marker([value['lat'], value['lng']]).addTo(map).bindPopup(value['name'] + ", " + value['address']);
     });
+
+    $( ".nav" ).on( "click", function() {
+        // remove the class from our peers
+       $( ".nav" ).siblings().removeClass("active_category"); 
+      $( this ).addClass( "active_category" );
+    });
 });
