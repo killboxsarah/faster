@@ -4271,10 +4271,7 @@ ul.pagination {
 
 /* Panels */
 .panel {
-/*  border-style: solid;
-*/  border-width: 1px;
-/*  border-color: #d9d9d9;*/
-/*  margin-bottom: 1.25em;*/
+  border-width: 1px;
   padding: 1.25em;}
   .panel > :first-child {
     margin-top: 0; }
@@ -4283,14 +4280,13 @@ ul.pagination {
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel p {
     color: whitesmoke;}
   .panel h6 {
-    background-color: #737373;}
+    background-color: ;}
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
     margin-bottom: 0.625em; }
     .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
       line-height: 1.4; }
   .panel.callout {
-/*    border-style: solid;*/
     border-width: 1px;
     border-color: #2284a1;
     margin-bottom: 1.25em;
@@ -4317,8 +4313,6 @@ ul.pagination {
     -webkit-border-radius: 3px;
     background-color: #161616;
     border-radius: 3px; 
-/*    max-width: 1000px;*/
-/*    padding: 0px;*/
   }
   .panel.splash {
     -webkit-border-radius: 3px;
@@ -4331,13 +4325,13 @@ ul.pagination {
     max-height: 175px;
     border-radius: 3px; 
     padding-top: 0px;}
+  .panel.landing {
+    -webkit-border-radius: 3px;
+    background-color: #000;
+    border-radius: 3px; }
   .panel.about {
     -webkit-border-radius: 3px;
-    background-color: #9d9d9f;
-    border-radius: 3px; }
-  .panel.logo {
-    -webkit-border-radius: 3px;
-    background-color: #9d9d9f;
+    background-color: #737373;
     border-radius: 3px; }
   .panel.store{
     -webkit-border-radius: 3px;
@@ -4345,8 +4339,7 @@ ul.pagination {
     border-radius: 3px;}
 
   .panel.contact{
-    -webkit-border-radius: 3px;
-   /* background-image: url("../images/ContactBackground.svg");*/    
+    -webkit-border-radius: 3px; 
     background-repeat: no-repeat;
     background-size: 90%;
     background-color: #808284;
