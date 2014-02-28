@@ -63,7 +63,7 @@ body {
   font-size: 100%; }
 
 body {
-  background-image: url("../images/background_purpletop.jpg");
+  background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center top; 
@@ -1439,7 +1439,7 @@ button, .button {
   button.nav, .button.nav {
     border-style: none;
     font-weight: normal;
-    padding-top: 0.5625em;
+    padding-top: 0.5em;
     padding-right: 1.125em;
 /*    padding-bottom: 0.625em;*/
     padding-left: 1.125em;
@@ -2880,8 +2880,7 @@ label.error {
 
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
-  width: 100%;
-  background: #111111; }
+  width: 100%;}
   .contain-to-grid .top-bar {
     margin-bottom: 1.875em; }
 
@@ -4204,20 +4203,26 @@ ul.pagination {
     padding-bottom: 5%; }
   .panel.about {
     -webkit-border-radius: 3px;
-    background-color: #737373;
+    background-color: #808285;
+    opacity: .88;
     border-radius: 3px;
     padding-top: 5%;
     padding-bottom: 10%; }
+  .panel.spanner {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding-top: 19%;}
   .panel.bottom {
     -webkit-border-radius: 3px;
     background-color: #737373;
     border-radius: 3px;
     padding-top: 5%; }
-  .panel.store{
+  .panel.top {
     -webkit-border-radius: 3px;
-    background-color: #000;
+    background-color: #808285;
     border-radius: 3px;
-   /* padding-bottom: 5%;*/}
+    padding-top: 5%;
+    padding-bottom: 10%; }
 
   .panel.contact{
     -webkit-border-radius: 3px; 
