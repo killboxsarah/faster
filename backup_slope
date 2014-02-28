@@ -1,0 +1,523 @@
+  <!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Faster Skates</title>
+  
+  <link rel="stylesheet" href="css/template.css"> 
+  <link rel="stylesheet" href="css/faster.css">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="bower_components/leaflet-dist/leaflet.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,700' rel='stylesheet' type='text/css'/>
+  <link rel="shortcut icon" type="image/x-icon" href="im/favicon.ico"/>
+
+  <script src="bower_components/modernizr/modernizr.js"></script>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+  <script type="text/javascript" src="bower_components/mixitup/jquery.mixitup.min.js"></script> 
+  <script type="text/javascript" src="bower_components/sticky/jquery.sticky.js"></script>
+  <script type="text/javascript" src="bower_components/leaflet-dist/leaflet.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script src="http://beta.mapquestapi.com/sdk/leaflet/v0.1/mq-map.js?key=Fmjtd%7Cluur216rll%2C2l%3Do5-90zw9a"></script>
+
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<div class="row">
+
+  <!-- <a href="#" class="button" data-reveal-id="myModal">Click Me For A Modal</a> -->
+
+<div class="sticky-element"> 
+  <ul class="button-group">
+    <style >
+    .sticky-element {
+      z-index: 5;
+      margin: 0% auto;
+      left: 0;
+      right: 0;
+      max-width: 1000px;
+      max-height: 50px;
+      background: #161616;
+      opacity: .85;
+      box-sizing: border-box;
+    }
+    </style>
+    <li><a href="#" class="button nav">ABOUT</a></li>
+    <li><a href="#" class="button nav">PRODUCTS</a></li>
+    <li><a href="#" class="button nav">CONTACT</a></li>
+  </ul>
+</div> 
+    
+   <section class="se-container" style ="
+                  padding-top: 50px;">
+
+        <div class="se-slope">
+          <article class="se-content" style="
+                  height: 900px;">
+
+                <img src="images/website_banner.jpg"/>   
+                    <h6>TRUE TO THE ART.</h6>
+          </article>
+        </div>
+
+        <div class="se-slope">
+          <article class="se-content" style="
+                  height: 450px;
+                  padding-top: 80px;">
+
+        <h6>ABOUT</h6>
+        <P> Skating is an art form, and true skaters deserve gear that remains true to that art. Combining years of our own skating experience with the finest materials and technologically driven craftsmanship, we engineer what your hard work deserves - wheels with unparalleled precision, responsiveness and speed. Forget what you think you know. This is Faster.</p>
+          
+          </article>
+        </div>
+
+    </section>
+
+    <section class="se-container" style ="
+                  margin-top: -100px;
+                  padding-top: 50px; ">
+
+        <div class="se-slope">
+          <article class="se-content" style="
+                  padding-left: 50px;
+                  padding-right: 50px; 
+                  max-width: 100%; ">
+
+            <div class="wrapper">
+              <h6>PRODUCTS</h6>
+
+                <!-- GRID -->
+              <ul id="Grid">
+                <li class="mix nav wheel" id="wheel">
+                 <div class="nav_image filter" data-filter="wheel nav">&nbsp;</div>
+              </li>
+              <li class="mix nav tire">
+                  <div class="nav_image filter" data-filter="tire nav">&nbsp;</div>
+              </li>
+              <li class="mix nav component">
+                 <div class="nav_image filter" data-filter="component nav">&nbsp;</div>
+              </li>
+
+        <!--DEMILUNE COLLECTION -->
+                  <li class="mix wheel land" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="side s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="side s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/Demilune_SD_Wood.jpg" data-reveal-id="demilune_complete">
+                      </div>
+                    </div></li> 
+
+                <li class="mix tire" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="side s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="side s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim50 loaded">
+                        <img src="img/products/Demilune_SDTire_Wood.jpg" data-reveal-id="demilune_tire">
+                      </div>
+                    </div></li>
+
+        <!--DEMIROJO COLLECTION -->
+                  <li class="mix wheel land" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="side s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="side s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/Demirojo_SD_Wood.jpg" data-reveal-id="demirojo_complete">
+                      </div>
+                    </div></li> 
+
+                <li class="mix tire" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="side s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="side s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/Demirojo_SDTire_Wood.jpg" data-reveal-id="demirojo_tire">
+                      </div>
+                    </div></li>
+
+        <!--DEMIURGE COLLECTION -->
+                  <li class="mix wheel land" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="side s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="side s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/Demiurge_SD_Wood.jpg" data-reveal-id="demiurge_complete">
+                      </div>
+                    </div></li> 
+
+                <li class="mix tire" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="side s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="side s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/Demiurge_SDTire_Wood.jpg" data-reveal-id="demiurge_tire">
+                      </div>
+                    </div></li>
+
+        <!--STRIDE COLLECTION -->
+<!--                   <li class="mix wheel" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="side s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="side s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/Stride_SD_Wood.jpg" data-reveal-id="stride_complete">
+                      </div>
+                    </div></li> 
+
+                <li class="mix tire" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="side s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="side s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/Stride_SDTire_Wood.jpg" data-reveal-id="stride_tire">
+                      </div>
+                    </div></li> -->
+
+        <!--GRIP COLLECTION -->
+                  <li class="mix wheel" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="side s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="side s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/Grip_SD_Wood.jpg" data-reveal-id="grip_complete">
+                      </div>
+                    </div></li> 
+
+                <li class="mix tire" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="side s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="side s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/Grip_SDTire_Wood.jpg" data-reveal-id="grip_tire">
+                      </div>
+                    </div></li>
+
+        <!--STARR COLLECTION -->
+                  <li class="mix wheel" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="side s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="side s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/Starr_SD_Wood.jpg" data-reveal-id="starr_complete">
+                      </div>
+                    </div></li> 
+
+                <li class="mix tire" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="side s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="side s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/Starr_SDTire_Wood.jpg" data-reveal-id="starr_tire">
+                      </div>
+                    </div></li>
+
+                     <li class="mix component" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="puller s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="puller s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/Bearing puller.jpg">
+                      </div>
+                    </div></li>
+
+                    <li class="mix component" data-cat="2">
+                    <div class="content">
+                      <div class="spinner wf">
+                        <span class="cclip s_left">
+                          <span class="fill"></span>
+                        </span>
+                        <span class="cclip s_right">
+                          <span class="fill"></span>
+                        </span>
+                      </div>
+                      <div class="img_wrapper anim150 loaded">
+                        <img src="img/products/C-clip.jpg">
+                      </div>
+                    </div></li>
+        <!-- End PRODUCTS-->
+          </article>
+        </div>
+
+        <div class="se-slope">
+          <article class="se-content" style="
+                padding-top: 80px;
+                height: 1000px;">
+            <h6>CONTACT FASTER</h6>
+    
+           <div class="large-6 small-12 columns map" id="map" style="
+                          border: solid;
+                          border-color: #fff;">
+        
+          </div>
+
+        <div class="large-6 small-8 columns" style="padding-left:20px; margin-top:-5px;">
+          <div id="wufoo-zye4k3x0d0h797">
+          </div>
+          <script type="text/javascript">var zye4k3x0d0h797;(function(d, t) {
+            var s = d.createElement(t), options = {
+              'userName':'fasterskates', 
+              'formHash':'zye4k3x0d0h797', 
+              'autoResize':true,
+              'height':'497',
+              'async':true,
+              'host':'wufoo.com',
+              'header':'hide', 
+              'ssl':true};
+              s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+              s.onload = s.onreadystatechange = function() {
+                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                try { zye4k3x0d0h797 = new WufooForm();zye4k3x0d0h797.initialize(options);zye4k3x0d0h797.display(); } catch (e) {}};
+                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+              })(document, 'script');</script>
+          </div>
+
+          <div class="large-6 small-4 columns" style="padding-top:2%">
+              FASKTER SKATES IS BASED IN AUSTIN TEXAS
+            </br>
+            </br>
+              Faster Skates
+            </br>
+              Austin, TX 78702
+            </br>
+              P: 512.897.3271
+            </br>
+            </br>
+              <a href="mailto:info@fasterskates.com">E: info@fasterskates.com</a>
+              <a href="http://www.facebook.com/FasterSkates"><img src="images/facebook.png"/ style="
+                  position: absolute; 
+                  padding-left: 250px;
+                  padding-top: 57px;"></a>
+          </div>
+        
+          <div class="large-6 small-12 columns" style="padding-top:2%""
+                      padding-right: 0px;">
+
+              <div class="large-4 small-4 columns">
+                <img src="img/dealers/bruised.jpg">
+              </div>
+
+              <div class="large-4 small-4 columns">
+                <img src="img/dealers/medusa.jpg">
+              </div>
+              
+              <div class="large-4 small-4 columns">
+                <img src="img/dealers/fifth.jpg">
+              </div>
+
+            </div>
+          </article>
+        </div>
+
+
+        <div class="se-slope">
+          <article class="se-content" style="
+                  height: 0px;
+                  padding-top: 0px;
+                  padding-bottom: 100px;">
+
+            </article>
+          </div>
+      </section>
+</div>
+
+
+<!-- TIRE MODALS -->
+  <div id="demilune_tire" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Demilune_tires.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="demiurge_tire" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Demiurge_tires.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="demirojo_tire" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Demirojo_tires.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="grip_tire" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Grip_tires.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="stride_tire" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Stride_tires.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="starr_tire" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Starr_tires.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+<!--END TIRE MODALS -->
+
+<!-- COMPLETE MODALS -->
+  <div id="demilune_complete" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Demilune_wheels.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="demiurge_complete" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Demiurge_wheels.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="demirojo_complete" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Demirojo_wheels.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="grip_complete" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Grip_wheels.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="starr_complete" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Starr_wheels.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+<!--END COMPLETE MODALS -->
+
+
+<!-- COMPONENT MODALS -->
+  <div id="hub_puller" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Demilune_tires.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="bearing_puller" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Demilune_tires.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="hub" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Demilune_tires.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+
+  <div id="clip" class="reveal-modal xlarge" data-reveal>
+    <img src="img/product_detail/Demilune_tires.jpg">
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+<!--END COMPONENT MODALS -->
+
+
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script>
+
+<script type="text/javascript">
+  faster.initFoundation();
+</script>
+
+</body>
+</html>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
