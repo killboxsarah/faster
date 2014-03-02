@@ -27,46 +27,54 @@
 
 </head>
 <body>
+ <div class="shadow">
+ <style>
+ .shadow {
+  position: absolute;
+  margin-top: -2%;
+  z-index: 10;
+ }
+ </style>
+ <img src="images/foreground.png">  
+ </div>
 
 <!-- NAVIGATION -->
 <div class="row">
-
-
 <div class="panel spanner">
   </div>
 
   <div class="contain-to-grid sticky">
-<!--   <nav class="top-bar" data-topbar> -->
-  <div class="sticky-element"> 
-    <ul class="button-group">
-      <style >
-      .sticky-element {
-        z-index: 5;
-        margin: 0% auto;
-        left: 0;
-        right: 0;
-        max-width: 1000px;
-        max-height: 50px;
-        background: #808285;
-        opacity: .88;
-        box-sizing: border-box;
-      }
-      </style>
-      <li><a href="#" class="button nav">ABOUT</a></li>
-      <li><a href="#" class="button nav">PRODUCTS</a></li>
-      <li><a href="#" class="button nav">CONTACT</a></li>
-    </ul>
-  </div> 
-<!--   </nav> -->
-</div>
+    <div class="sticky-element"> 
+      <ul class="button-group">
+        <style >
+        .sticky-element {
+          z-index: 5;
+          margin: 0% auto;
+          left: 0;
+          right: 0;
+          max-width: 1000px;
+          max-height: 50px;
+          background: #808285;
+          opacity: .88;
+          box-sizing: border-box;
+        }
+        </style>
+        <li><a href="#" class="button nav">ABOUT</a></li>
+        <li><a href="#" class="button nav">PRODUCTS</a></li>
+        <li><a href="#" class="button nav">CONTACT</a></li>
+<!--         <li><img src="img/logo_transparent.png" 
+        style=" width: 75px;"></li> -->
+      </ul>
+    </div> 
+  </div>
+
+
 
     <div class="landing">
       <img src="images/website_banner.jpg">   
     </div>
 
     <div class="panel about">
-          <h6 style="padding-top: 5%;">TRUE TO THE ART</h6>
-
         <P> Skating is an art form, and true skaters deserve gear that remains true to that art. Combining years of our own skating experience with the finest materials and technologically driven craftsmanship, we engineer what your hard work deserves - wheels with unparalleled precision, responsiveness and speed. Forget what you think you know. This is Faster.</p>
   </div>
 
@@ -307,44 +315,37 @@
 
           <div class="large-6 small-4 columns" style="padding-top:2%">
             <P>
-            </br>
-            </br>
               Faster Skates
             </br>
-              Austin, TX 78702
+              Austin, TX 78723
             </br>
-              P: 512.897.3271
-            </br> </P>
-              <a href="mailto:info@fasterskates.com">E: info@fasterskates.com</a>
-              <a href="http://www.facebook.com/FasterSkates"><img src="images/facebook.png"/ style="
-                  position: absolute; 
-                  padding-left: 250px;
-                  padding-top: 57px;"></a>
+              P: 512.897.3271</P>
+              <a href="mailto:info@fasterskates.com">E:  info @ fasterskates . com</a> </br>
+              <a href="http://www.facebook.com/FasterSkates"><img src="images/facebook.png"/style="
+              position: absolute;
+              padding-left: 150px;
+              padding-top: 30px;"></a>
           </div>
         
           <div class="large-6 small-1 columns" style="padding-top:2%""
                       padding-right: 0px;">
 
+             <div class="large-4 small-4 columns">
+                <img src="img/dealers/fifth.png">
+              </div>
+
               <div class="large-4 small-4 columns">
-                <img src="img/dealers/bruised.jpg">
+                <img src="img/dealers/bruised.png">
               </div>
 
               <div class="large-4 small-4 columns">
                 <img src="img/dealers/medusa.jpg">
               </div>
               
-              <div class="large-4 small-4 columns">
-                <img src="img/dealers/fifth.jpg">
-              </div>
             </div>
-      <style>
-      .copyright {
-        margin-left: 97%;
-      }
-      </style>
-      <div class="copyright">
-        <img src="images/copyleft.png" height="22" width="22" style="
-          margin-top: 50px;">
+
+      <div class="copyleft">
+        <a href="http://en.wikipedia.org/wiki/Copyleft"><img src="images/copyleft.png" height="18;" width="18;">&nbsp; copyleft</a>
       </div>
 
        <hr style="
@@ -441,7 +442,6 @@
 <script type="text/javascript">
   faster.initFoundation();
 </script>
-
 </body>
 </html>
 

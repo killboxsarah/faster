@@ -49,8 +49,6 @@
 }
 
 
-
-
 *,
 *:before,
 *:after {
@@ -74,6 +72,10 @@ body {
   line-height: 1.25;
   position: relative;
   cursor: default;  }
+
+/*.shadow {
+     image: url("../images/copyleft.png"); 
+      z-index: 100;}*/
 
 a:hover {
   cursor: pointer; }
@@ -1907,12 +1909,12 @@ label.error {
 /* Button Groups */
 .button-group {
   list-style: none;
-  padding-left: 35px;
-  padding-top: 5px;
+/*  padding-left: 55%;*/
+  padding-top: 2px;
   margin: 0%;
   left: 0;
   right: 0; 
-  width: 500px;
+  max-width: 100%;
   *zoom: 1; }
   .button-group:before, .button-group:after {
     content: " ";
@@ -4211,7 +4213,9 @@ ul.pagination {
   .panel.spanner {
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    padding-top: 19%;}
+    background-color: #808285;
+    opacity: .8;
+    padding-top: 14%;}
   .panel.bottom {
     -webkit-border-radius: 3px;
     background-color: #737373;
