@@ -73,10 +73,6 @@ body {
   position: relative;
   cursor: default;  }
 
-/*.shadow {
-     image: url("../images/copyleft.png"); 
-      z-index: 100;}*/
-
 a:hover {
   cursor: pointer; }
 
