@@ -1,1 +1,9 @@
 .DS_Store
+*.log
+
+# Idea files
+*.iws
+*.ids
+*.iml
+*.ipr
+.idea
