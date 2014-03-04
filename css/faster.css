@@ -1145,7 +1145,7 @@ p {
     font-style: italic; }
 
 /* Default header styles */
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, {
   font-family: "montserrat", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
@@ -1154,6 +1154,7 @@ h1, h2, h3, h4, h5 {
   margin-top: 0.2em;
   margin-bottom: 0.5em;
   line-height: 1.2125em; }
+
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
     color: #6f6f6f;
@@ -1172,10 +1173,18 @@ h4 {
   font-size: 1.125em; }
 
 h5 {
-  font-size: 1.125em; }
+  font-family: "montserrat", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke;
+  font-style: normal;
+  font-size: 1em;
+  text-rendering: optimizeLegibility;
+  line-height: 1.2125em;
+  padding-bottom: 4%; }
 
 hr {
-  border: solid #662e91;
+  border: solid #fff;
   border-width: 3px 0 0;}
 
 h6 {
@@ -4169,7 +4178,7 @@ ul.pagination {
     margin-top: 0; }
   .panel > :last-child {
     margin-bottom: 0; }
-  .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel p {
+  .panel h1, .panel h2, .panel h3, .panel h4, .panel p {
     color: whitesmoke;}
 /*  .panel h6 {
     background-color: }*/
