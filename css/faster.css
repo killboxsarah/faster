@@ -1145,7 +1145,7 @@ p {
     font-style: italic; }
 
 /* Default header styles */
-h1, h2, h3, h4, {
+h2, h3, h4, {
   font-family: "montserrat", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
@@ -1155,13 +1155,11 @@ h1, h2, h3, h4, {
   margin-bottom: 0.5em;
   line-height: 1.2125em; }
 
-  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
     color: #6f6f6f;
     line-height: 0; }
 
-h1 {
-  font-size: 2.125em; }
 
 h2 {
   font-size: 1.6875em; }
@@ -1171,17 +1169,18 @@ h3 {
 
 h4 {
   font-size: 1.125em; }
+       
 
 h5 {
   font-family: "montserrat", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  text-align: center;
+/*  text-align: center;*/
   color: whitesmoke;
   font-style: normal;
-  font-size: 1em;
+  font-size: 1.03em;
+  letter-spacing:1px;
   text-rendering: optimizeLegibility;
-  line-height: 1.2125em;
-  padding-bottom: 4%; }
+  line-height: 1.4em;
+  margin-bottom: 3.5%;}
 
 hr {
   border: solid #fff;
@@ -1320,11 +1319,8 @@ blockquote p {
   padding: 0 0.0625em; }
 
 @media only screen and (min-width: 768px) {
-  h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h6 {
     line-height: 1.4; }
-
-  h1 {
-    font-size: 2.75em; }
 
   h2 {
     font-size: 2.3125em; }
@@ -4183,7 +4179,7 @@ ul.pagination {
     color: whitesmoke;}
 /*  .panel h6 {
     background-color: }*/
-  .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
+  .panel h1, .panel h2, .panel h3, .panel h4, .panel h6 {
     line-height: 1;
     margin-bottom: 0.625em; }
     .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
@@ -4239,7 +4235,7 @@ ul.pagination {
     opacity: .88;
     border-radius: 3px;
 /*    padding-top: 5%;*/
-    padding-bottom: 10%; }
+    padding-bottom: 6%; }
   .panel.spanner {
     -webkit-border-radius: 3px;
     border-radius: 3px;
