@@ -1,3 +1,31 @@
+p.detail {
+  font-family: "montserrat", "Helvetica", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #000;
+  font-style: normal;
+  font-size: 1.75em;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2em;
+  margin-bottom: 2em;
+  line-height: 1.2125em;
+ /* padding-bottom: 2%; */}
+
+span.name {
+  font-family: "montserrat", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #662e91;
+  text-rendering: optimizeLegibility;}
+
+span.alt {
+  font-family: "montserrat", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #ed1c24;
+  text-rendering: optimizeLegibility;}
+
+span.alts {
+  font-family: "montserrat", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #8dc43f;
+  text-rendering: optimizeLegibility;}
+
+
 .wheel {
   background-image: url("../img/roll_over/Wheels.jpg");
   background-size: 100%;
@@ -4191,7 +4219,8 @@ ul.pagination {
     padding-top: 0px;}
   .panel.landing {
     -webkit-border-radius: 3px;
-    background-color: #000;
+    background-color: #161616;
+    opacity: .95;
     border-radius: 3px;
     padding-top: 1%;
     padding-bottom: 5%; }
