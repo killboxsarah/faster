@@ -2,64 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b442eb62-2fcb-451a-bbb4-f557d32215dd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/foundation/humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.equalizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/foundation/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_range-slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faster.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faster.ipr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/faster.iws" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/.bower.json" afterPath="$PROJECT_DIR$/bower_components/foundation/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_block-grid.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_block-grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_button-groups.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_button-groups.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_clearing.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_clearing.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_flex-video.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_flex-video.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_forms.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_forms.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/_functions.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/_functions.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_global.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_grid.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_inline-lists.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_inline-lists.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_joyride.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_joyride.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_magellan.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_magellan.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_offcanvas.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_offcanvas.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_orbit.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_orbit.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_progress-bars.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_progress-bars.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_reveal.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_reveal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/_settings.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/_settings.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_side-nav.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_side-nav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_sub-nav.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_sub-nav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_tabs.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_tabs.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_tooltips.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_tooltips.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_top-bar.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_top-bar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_type.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_type.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_visibility.scss" afterPath="$PROJECT_DIR$/bower_components/foundation/scss/foundation/components/_visibility.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/bower.json" afterPath="$PROJECT_DIR$/bower_components/foundation/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.abide.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.abide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.accordion.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.accordion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.alert.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.clearing.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.clearing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/css/foundation.css" afterPath="$PROJECT_DIR$/bower_components/foundation/css/foundation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.dropdown.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.interchange.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.interchange.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.joyride.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.joyride.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.magellan.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.magellan.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/css/foundation.min.css" afterPath="$PROJECT_DIR$/bower_components/foundation/css/foundation.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation.min.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.offcanvas.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.offcanvas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.orbit.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.orbit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.reveal.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.reveal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.tab.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.tooltip.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.topbar.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/foundation/foundation.topbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Bearing puller.jpg" afterPath="$PROJECT_DIR$/img/products/Bearing puller.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/C-clip.jpg" afterPath="$PROJECT_DIR$/img/products/C-clip.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roll_over/Components.jpg" afterPath="$PROJECT_DIR$/img/roll_over/Components.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roll_over/Components_Rollover.jpg" afterPath="$PROJECT_DIR$/img/roll_over/Components_Rollover.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Demilune_FWTire_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Demilune_FWTire_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Demilune_FW_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Demilune_FW_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Demilune_SDTire_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Demilune_SDTire_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Demilune_SD_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Demilune_SD_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Demirojo_FWTire_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Demirojo_FWTire_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Demirojo_FW_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Demirojo_FW_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Demirojo_SDTire_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Demirojo_SDTire_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Demirojo_SD_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Demirojo_SD_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Demiurge_FWTire_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Demiurge_FWTire_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Demiurge_FW_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Demiurge_FW_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Demiurge_SDTire_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Demiurge_SDTire_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Demiurge_SD_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Demiurge_SD_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Grip_FWTire_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Grip_FWTire_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Grip_FW_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Grip_FW_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Grip_SDTire_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Grip_SDTire_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Grip_SD_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Grip_SD_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Hub puller.jpg" afterPath="$PROJECT_DIR$/img/products/Hub puller.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Hubs.jpg" afterPath="$PROJECT_DIR$/img/products/Hubs.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Starr_SDTire_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Starr_SDTire_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Starr_SD_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Starr_SD_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Stride_FWTire_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Stride_FWTire_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Stride_FW_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Stride_FW_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Stride_SDTire_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Stride_SDTire_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/Stride_SD_Wood.jpg" afterPath="$PROJECT_DIR$/img/products/Stride_SD_Wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roll_over/Tires.jpg" afterPath="$PROJECT_DIR$/img/roll_over/Tires.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roll_over/Tires_Rollover.jpg" afterPath="$PROJECT_DIR$/img/roll_over/Tires_Rollover.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roll_over/Wheels.jpg" afterPath="$PROJECT_DIR$/img/roll_over/Wheels.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roll_over/Wheels_Rollover.jpg" afterPath="$PROJECT_DIR$/img/roll_over/Wheels_Rollover.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/dealers/bruised.png" afterPath="$PROJECT_DIR$/img/dealers/bruised.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/copyleft.png" afterPath="$PROJECT_DIR$/images/copyleft.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/dealers/fifth.png" afterPath="$PROJECT_DIR$/img/dealers/fifth.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/foreground.png" afterPath="$PROJECT_DIR$/images/foreground.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/tire_default.jpg" afterPath="$PROJECT_DIR$/img/products/tire_default.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/wheel_default.jpg" afterPath="$PROJECT_DIR$/img/products/wheel_default.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faster.iws" afterPath="$PROJECT_DIR$/faster.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/js/vendor/jquery.js" afterPath="$PROJECT_DIR$/bower_components/foundation/js/vendor/jquery.js" />
     </list>
     <ignored path="faster.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -126,7 +108,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="7" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+            <state line="2" column="7" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -135,15 +117,17 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="436" column="59" selection-start="14903" selection-end="14903" vertical-scroll-proportion="1.9156626" vertical-offset="6222" max-vertical-offset="7095">
-              <folding>
-                <element signature="n#style#0;n#h6#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="335" column="66" selection-start="11693" selection-end="11693" vertical-scroll-proportion="1.315534" vertical-offset="4694" max-vertical-offset="8025">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faster.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/faster.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4214" column="13" selection-start="187901" selection-end="187901" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="73755">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -198,7 +182,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,6 +234,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -298,6 +282,14 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -313,34 +305,20 @@
       <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -371,17 +349,23 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -420,6 +404,21 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -439,21 +438,6 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -469,6 +453,7 @@
       <workItem from="1393607679408" duration="9900000" />
       <workItem from="1393874464295" duration="968000" />
       <workItem from="1393875476049" duration="2744000" />
+      <workItem from="1393905436226" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Deleted foundation.css.">
       <created>1393615278239</created>
@@ -478,14 +463,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13612000" />
+    <option name="totallyTimeSpent" value="14208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="818" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6460055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.59090906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -496,7 +481,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -510,6 +494,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -534,6 +519,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="436" column="59" selection-start="15846" selection-end="15846" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="46" selection-start="5384" selection-end="5384" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="855">
           <folding />
         </state>
@@ -542,29 +541,18 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="282" column="4" selection-start="9507" selection-end="9507" vertical-scroll-proportion="0.0" vertical-offset="4230" max-vertical-offset="7140">
-          <folding>
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/leaflet-dist/leaflet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
@@ -577,29 +565,18 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="38" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="7140">
-          <folding>
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/leaflet-dist/leaflet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/humans.txt">
@@ -614,25 +591,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/faster.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4214" column="13" selection-start="187877" selection-end="187877" vertical-scroll-proportion="-6.5" vertical-offset="63041" max-vertical-offset="73290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/leaflet-dist/leaflet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="533">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="533" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="603">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="603" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
@@ -642,17 +608,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/faster.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4214" column="13" selection-start="187901" selection-end="187901" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="73755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="436" column="59" selection-start="14903" selection-end="14903" vertical-scroll-proportion="1.9156626" vertical-offset="6222" max-vertical-offset="7095">
-          <folding>
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="335" column="66" selection-start="11693" selection-end="11693" vertical-scroll-proportion="1.315534" vertical-offset="4694" max-vertical-offset="8025">
+          <folding />
         </state>
       </provider>
     </entry>
