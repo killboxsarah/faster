@@ -1135,7 +1135,7 @@ a {
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1em;
+  font-size: .75em;
   line-height: 1.6;
   margin-bottom: 1.25em;
   text-rendering: optimizeLegibility; }
@@ -1186,8 +1186,6 @@ h5 {
 hr {
   border: solid #fff;
   margin-bottom: 0px;
-  width: 95%;
-  margin-left: 2.5%;
   border-width: 3px 0 0;}
 
 h6 {
@@ -4250,6 +4248,7 @@ ul.pagination {
     padding-top: 14%;}
   .panel.bottom {
     -webkit-border-radius: 3px;
+    max-height: 100%;
     background-color: #737373;
     padding-top: 1%;
     border-radius: 3px;}
