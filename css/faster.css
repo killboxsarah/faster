@@ -1185,6 +1185,9 @@ h5 {
 
 hr {
   border: solid #fff;
+  margin-bottom: 0px;
+  width: 95%;
+  margin-left: 2.5%;
   border-width: 3px 0 0;}
 
 h6 {
