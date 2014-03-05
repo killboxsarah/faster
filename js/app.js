@@ -16,7 +16,7 @@ $(function(){
     $(".sticky-element").sticky({ topSpacing: 0});
 
 
-    var map = L.map('map').setView([30.267599, -97.742981], 0);
+    var map = L.map('map').setView([7.1881, 21.0936], 1);
     map.scrollWheelZoom.disable();
     L.tileLayer('http://129.206.74.245:8008/tms_rg.ashx?x={x}&y={y}&z={z}', { }).addTo(map);
 
