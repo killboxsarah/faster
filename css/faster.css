@@ -1224,13 +1224,8 @@ ul,
 ol,
 dl {
   font-size: 1em;
-  line-height: 1.6;
-/*  margin-bottom: 1.25em;*/
   list-style-position: outside;
   font-family: inherit; }
-
-/*ul, ol {
-  margin-left: }*/
 
 /* Unordered Lists */
 ul li ul,
@@ -1933,8 +1928,6 @@ label.error {
 /* Button Groups */
 .button-group {
   list-style: none;
-/*  padding-left: 55%;*/
-  padding-top: 2px;
   margin: 0%;
   left: 0;
   right: 0; 
@@ -4244,7 +4237,7 @@ ul.pagination {
     border-radius: 3px;
     background-color: #808285;
     opacity: .8;
-    padding-top: 14%;}
+    padding-top: 13%;}
 
   .panel.product { {} 
 
