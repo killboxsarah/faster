@@ -1,12 +1,4 @@
-.full-height { 
-  display: table; 
-  width: 100%;
- }
- 
-.sidebar { 
-  display: table-cell; 
-  background: #eeeeee;  
-}
+
 
 p.detail {
   font-family: "montserrat", "Helvetica", Helvetica, Arial, sans-serif;
