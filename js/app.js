@@ -16,7 +16,8 @@ $(function(){
     $(".sticky-element").sticky({ topSpacing: 0});
 
 
-    var map = L.map('map').setView([30.267599, -97.742981], 3);
+    var map = L.map('map').setView([30.267599, -97.742981], 0);
+    map.scrollWheelZoom.disable();
     L.tileLayer('http://129.206.74.245:8008/tms_rg.ashx?x={x}&y={y}&z={z}', { }).addTo(map);
 
      var dealers = [{name:'5th Blocker Skates',address:'143 West Regent Street<br /> Glasgow, G2 2SG<br /><a target="_blank" href="http://www.5thblockerskates.co.uk/">http://www.5thblockerskates.co.uk/</a>',lat:55.863445, lng: -4.260689},
@@ -41,7 +42,9 @@ $(function(){
         {name:'Winnwood Skate Center',address:'4426 NE Winn Road<br /> Kansas City, MO, 64117<br /><a target="_blank" href="http://www.winnwoodsk8.com">http://www.winnwoodsk8.com</a>',lat:39.17573, lng: -94.53165}];
 
     $.each(dealers, function( index, value ) {
-        L.marker([value['lat'], value['lng']]).addTo(map).bindPopup(value['name'] + "<br /> " + value['address']);
+        var icon = L.MakiMarkers.icon({icon: "", color: "#8dc43f", size: "s"});
+        L.marker([value['lat'], value['lng']], {icon: icon}).addTo(map).
+            bindPopup(value['name'] + "<br /> " + value['address']);
     });
 
     $( ".nav" ).on( "click", function() {

@@ -1,0 +1,33 @@
+{
+  "name": "Leaflet.MakiMarkers",
+  "main": "Leaflet.MakiMarkers.js",
+  "homepage": "https://github.com/jseppi/Leaflet.MakiMarkers",
+  "authors": [
+    "James Seppi <james.seppi@gmail.com>"
+  ],
+  "description": "Leaflet plugin to create map icons using Maki Icons from MapBox",
+  "keywords": [
+    "leaflet",
+    "maki",
+    "markers",
+    "mapbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "ff790755cc",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ff790755cc335a4062319ab07d95e59d6968e9e2"
+  },
+  "_source": "git://github.com/jseppi/Leaflet.MakiMarkers.git",
+  "_target": "*",
+  "_originalSource": "Leaflet.MakiMarkers",
+  "_direct": true
+}
