@@ -1463,7 +1463,7 @@ button, .button {
     border-style: none;
     font-weight: normal;
     padding-top: 0.5em;
-    padding-right: 1.125em;
+    padding-right: .125em;
 /*    padding-bottom: 0.625em;*/
     padding-left: 1.125em;
     font-size: 1em; }
