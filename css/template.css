@@ -33,48 +33,14 @@ table{
 	border-collapse: collapse;
 }
 
-h1,h2,h3,h4,h5,h6{
-	font-weight: normal;
-}
 
 a{
 	text-decoration: none;
 }
 
-nav li{
-	list-style-type: none;
-	display: inline-block;
-}
-
-/* ------ BOILERPLATE TEMPLATE ------ */
-
-body{
-	font-family: 'Open Sans';
-}
-
 .wrapper{
 	margin: 0px auto 0 auto;
 	max-width: 90%;
-}
-
-h1{
-	margin-bottom: 30px;
-}
-
-h1 strong{
-	font-weight: 700;
-}
-
-h3{
-	margin-bottom: 20px;
-	font-weight: 600;
-}
-
-p{
-	width: 100%;
-	margin: 0 0 30px;
-	text-align: left;
-	line-height: 1.5;
 }
 
 .controls{

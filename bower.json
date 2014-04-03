@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": "true",
   "dependencies": {
-    "foundation": "zurb/bower-foundation#5.0.3",
+    "foundation": "zurb/bower-foundation#5.1.1",
     "mixitup": "1.5.6",
     "sticky": "garand/sticky",
     "Leaflet.MakiMarkers": "jseppi/Leaflet.MakiMarkers"
