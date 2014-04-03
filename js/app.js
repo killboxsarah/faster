@@ -42,7 +42,7 @@ $(function(){
         {name:'Winnwood Skate Center',address:'4426 NE Winn Road<br /> Kansas City, MO, 64117<br /><a target="_blank" href="http://www.winnwoodsk8.com">http://www.winnwoodsk8.com</a>',lat:39.17573, lng: -94.53165}];
 
     $.each(dealers, function( index, value ) {
-        var icon = L.MakiMarkers.icon({icon: "", color: "#8dc43f", size: "s"});
+        var icon = L.MakiMarkers.icon({icon: "circle", color: "#8dc43f", size: "s"});
         L.marker([value['lat'], value['lng']], {icon: icon}).addTo(map).
             bindPopup(value['name'] + "<br /> " + value['address']);
     });
