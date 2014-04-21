@@ -167,13 +167,13 @@ function update()
 	}
 		
 	// global coordinates
-	if ( keyboard.pressed("J") )
+	if ( keyboard.pressed("left") )
 		MovingCube.position.x -= moveDistance;
-	if ( keyboard.pressed("L") )
+	if ( keyboard.pressed("right") )
 		MovingCube.position.x += moveDistance;
-	if ( keyboard.pressed("I") )
+	if ( keyboard.pressed("up") )
 		MovingCube.position.z -= moveDistance;
-	if ( keyboard.pressed("M") )
+	if ( keyboard.pressed("down") )
 		MovingCube.position.z += moveDistance;
 		
 	controls.update();
