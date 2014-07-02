@@ -48,7 +48,20 @@ $(function(){
         {name:'Turn Two Skate Shop',address:'643 Forest Ave<br /> Portland, ME 04101<br /><a target="_blank" href="http://www.turntwoskateshop.com">http://www.turntwoskateshop.com</a>',lat:43.670498, lng: -70.283935},
         {name:'Turn Around Skates',address:'84 Albany St<br /> Buffalo, NY 14213<br /><a target="_blank" href="http://www.turnaroundskates.com">http://www.turnaroundskates.com</a>',lat:42.91296, lng: -78.89854},
         {name:'Wicked Skate Wear',address:'2330 W. Third St., Ste. 1<br /> Los Angeles, CA 90057<br /><a target="_blank" href="http://www.wickedskatewear.com">http://www.wickedskatewear.com</a>',lat:34.06429, lng: -118.275716},
-        {name:'Winnwood Skate Center',address:'4426 NE Winn Road<br /> Kansas City, MO, 64117<br /><a target="_blank" href="http://www.winnwoodsk8.com">http://www.winnwoodsk8.com</a>',lat:39.17573, lng: -94.53165}];
+         {name:'Winnwood Skate Center',address:'4426 NE Winn Road<br /> Kansas City, MO, 64117<br /><a target="_blank" href="http://www.winnwoodsk8.com">http://www.winnwoodsk8.com</a>',lat:39.17573, lng: -94.53165},
+        {name:'Double Threat Skates',address:'119 Pancras Road<br /> Kings Cross, London, NW1 1UN, UK<br /><a target="_blank" href="http://www.doublethreatskates.co.uk/">http://www.doublethreatskates.co.uk/</a>',lat:51.5335405, lng: -0.1287497},
+         {name:'Powerhouse Skates',address:'331 Elizabeth Street NE, Suite E<br /> Atlanta, GA 30307<br /><a target="_blank" href="http://www.powerhouseskates.com/">http://www.powerhouseskates.com/</a>',lat:33.7635264, lng: -84.3584795},
+         {name:'Resurrection Bike and Skate',address:'411 Pecos Trail<br /> Irving, Texas 75063<br /><a target="_blank" href="http://resurrectionskates.com/">http://resurrectionskates.com/</a>',lat:32.9308934, lng: -96.9512824},
+         {name:'2N1 Skate Shoppe',address:'11471 Business Blvd #770111<br /> Eagle Creek, AK, 99577 <br /><a target="_blank" href="http://www.2n1skateshoppe.com/">http://www.2n1skateshoppe.com/</a>',lat:61.32507, lng: -149.575973},
+         {name:'Starlight Skatium',address:'612 N College Ave<br /> Fayetteville, AR 72701<br /><a target="_blank" href="http://starlightskatium.com/">http://starlightskatium.com/</a>',lat:36.0717409, lng: -94.1572532},
+         {name:'Skate Britain',address:'46 The Carriages, Gobowen Road<br /> Oswestry, Shropshire, SY11 1BX<br /><a target="_blank" href="http://skatebritain.net/">http://skatebritain.net/</a>',lat:52.8649511, lng: -3.0455673},
+         {name:'Electric Skate Co.',address:'676 King St<br /> W. Kitchner, ON, Canada, N2G 1E2 <br /><a target="_blank" href="http://www.electricskateco.com/">http://www.electricskateco.com/</a>',lat:43.454914, lng: -80.504594},
+         {name:'Flat Track Derby Limited',address:'<a target="_blank" href="http://www.flattrackderby.co.nz/">http://www.flattrackderby.co.nz/</a>',lat:-37.7155221, lng: 176.1328568},
+         {name:'Hit This! Derby Gear',address:'<a target="_blank" href="http://www.hitthisderbygear.com/">http://www.hitthisderbygear.com/</a>',lat:44.9329915, lng: -123.0282074},
+         {name:'Pivot Center',address:'3412 Inventors Rd<br /> Norfolk, Virginia 23502<br /><a target="_blank" href="https://www.facebook.com/PivotCenter">https://www.facebook.com/PivotCenter</a>',lat:36.8558053610978, lng: -76.2441626806323}
+
+
+     ];
 
     $.each(dealers, function( index, value ) {
         var icon = L.MakiMarkers.icon({icon: "circle", color: "#8dc43f", size: "s"});
