@@ -126,7 +126,7 @@ span.alts {
   }
 
 #yt {
-  background-image: url("../img/social/youtube.jpg");
+  background-image: url("../img/social/Youtube.jpg");
   cursor: pointer;
   margin-left: 1%;
   margin-right: 1%;
@@ -135,7 +135,7 @@ span.alts {
   }
 
 #yt:hover {
-  background-image: url("../img/social/youtube_color.jpg");
+  background-image: url("../img/social/Youtube_color.jpg");
   cursor: pointer;
   margin-left: 1%;
   margin-right: 1%;
