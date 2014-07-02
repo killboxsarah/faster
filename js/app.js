@@ -4,12 +4,21 @@ faster.initFoundation = function() {
     $(document).foundation();
 };
 
-$(function(){
+//$(function(){
 	// initialize mixitup
-	$('#Grid').mixitup({
-		resizeContainer: false,
-		showOnLoad: 'nav'
-	});
+// 	$('#Grid').mixitup({
+// 		resizeContainer: false,
+// 		showOnLoad: 'nav'
+// 	});
+
+$(function(){
+    $('#Container').mixItUp();
+
+    $('#buy_button').click(function(e) {
+        e.preventDefault();
+        $('#paypal_form').submit();
+    });
+
 	$("#wheel").click(function() {
 		$(this).attr('background-image', 'img/roll_over/Wheels_Rollover.jpg');
 	});

@@ -1,3 +1,13 @@
+.filter {
+  color: #fff;
+}
+
+#Container .mix{
+  margin-bottom: 5%;
+  display: none;
+}
+
+
 .full-height { display: table;  }
 
 p.detail {
@@ -77,6 +87,97 @@ span.alts {
     background-repeat: none;
 }
 
+#fb {
+  background-image: url("../img/social/facebag.jpg");
+  opacity: .9;
+  cursor: pointer;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 80px;
+  width: 80px;
+  }
+
+#fb:hover {
+  background-image: url("../img/social/facebag_color.jpg");
+  opacity: 1;
+  cursor: pointer;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 80px;
+  width: 80px;
+  }
+
+#insta {
+  background-image: url("../img/social/instagram.jpg");
+  cursor: pointer;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 80px;
+  width: 80px;
+  }
+
+#insta:hover {
+  background-image: url("../img/social/instagram_color.jpg");
+  cursor: pointer;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 80px;
+  width: 80px;
+  }
+
+#yt {
+  background-image: url("../img/social/youtube.jpg");
+  cursor: pointer;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 80px;
+  width: 80px;
+  }
+
+#yt:hover {
+  background-image: url("../img/social/youtube_color.jpg");
+  cursor: pointer;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 80px;
+  width: 80px;
+  }
+
+#blogger {
+  background-image: url("../img/social/blogger.jpg");
+  cursor: pointer;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 80px;
+  width: 80px;
+  }
+
+#blogger:hover {
+  background-image: url("../img/social/blogger_color.jpg");
+  cursor: pointer;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 80px;
+  width: 80px;
+  }
+
+#gp {
+  background-image: url("../img/social/google.jpg");
+  cursor: pointer;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 80px;
+  width: 80px;
+  }
+
+#gp:hover {
+  background-image: url("../img/social/google_color.jpg");
+  cursor: pointer;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 80px;
+  width: 80px;
+  }
 
 *,
 *:before,
@@ -1178,7 +1279,7 @@ h5 {
   color: whitesmoke;
   font-style: normal;
   font-size: .95em;
-  letter-spacing:1px;
+/*  letter-spacing:1px;*/
   text-rendering: optimizeLegibility;
   line-height: 1.4em;
   margin-bottom: 3.5%;}
@@ -1398,23 +1499,6 @@ h2, h3, h4, h6 {
 
   .show-for-print {
     display: inherit !important; } }
-
-button, .button {
-  border-style: solid;
-  border-width: 1px;
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: bold;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding-top: 0.75em;
-  padding-right: 1.5em;
-  padding-bottom: 0.8125em;
-  padding-left: 1.5em;
-  font-size: 1.1em;
-  color: white; }
   
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #662e91; }
@@ -4293,7 +4377,13 @@ ul.pagination {
     border-radius: 3px; }
   .panel.landing {
     -webkit-border-radius: 3px;
-    background-color: #161616;
+    background-color: whitesmoke;
+    background-image: url("../images/background_store.jpg");
+    background-size: 121%;
+    background-position: left bottom;
+    background-repeat: repeat;
+    overflow-y: scroll;
+    height: 650px;
     opacity: .95;
     border-radius: 3px;
     padding-bottom: 5%; }
@@ -4303,6 +4393,12 @@ ul.pagination {
     max-height: 100%;
     border-radius: 3px;}
   .panel.about {
+    -webkit-border-radius: 3px;
+    background-color: #e3e3e3;
+    opacity: .88;
+    border-radius: 3px;
+    padding-bottom: 2%; }
+.panel.contact {
     -webkit-border-radius: 3px;
     background-color: #808285;
     opacity: .88;
@@ -4314,6 +4410,11 @@ ul.pagination {
     background-color: #161616;
     opacity: .95%;
     padding-top: .1%;}
+
+.panel.product{
+  border-width: 1px;
+  padding: 1.25em;
+  margin-bottom: 5%;}
 
 /* Pricing Tables */
 .pricing-table {
@@ -4340,9 +4441,9 @@ ul.pagination {
   .pricing-table .description {
     background-color: white;
     padding: 0.9375em;
-    text-align: center;
+    text-align: left;
     color: #777777;
-    font-size: 0.75em;
+    font-size: 0.7em;
     font-weight: normal;
     line-height: 1.4;
     border-bottom: dotted 1px #dddddd; }
@@ -4355,9 +4456,10 @@ ul.pagination {
     font-weight: normal;
     border-bottom: dotted 1px #dddddd; }
   .pricing-table .cta-button {
-    background-color: whitesmoke;
+/*    background-color: whitesmoke;*/
     text-align: center;
-    padding: 1.25em 1.25em 0; }
+    padding-top: 5%;
+    padding-bottom: 4%;}
 
 /* Progress Bar */
 .progress {
@@ -4449,5 +4551,7 @@ ul.pagination {
       cursor: default;
       color: white; }
 
-
+.main-section {
+  background-color: #808285;
+}
 

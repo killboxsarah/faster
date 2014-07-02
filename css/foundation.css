@@ -1,3 +1,7 @@
+/*.smith {
+  padding-top: 5%;
+}*/
+
 meta.foundation-version {
   font-family: "/5.2.1/"; }
 
@@ -1614,9 +1618,8 @@ meta.foundation-mq-topbar {
 
 button, .button {
   border-style: solid;
-  border-width: 0px;
+  border-width: 1px;
   cursor: pointer;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -1625,23 +1628,18 @@ button, .button {
   text-align: center;
   display: inline-block;
   padding-top: 1rem;
-  padding-right: 2rem;
+  padding-right: 1rem;
   padding-bottom: 1.0625rem;
-  padding-left: 2rem;
-  font-size: 1rem;
+  padding-left: 1rem;
+  font-size: .85rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #008cba;
+  background-color: #8dc43f;
   border-color: #007095;
   color: white;
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
-  transition: background-color 300ms ease-out;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
-  font-size: 1rem;
-  /*     @else                            { font-size: $padding - rem-calc(2); } */ }
+  transition: background-color 300ms ease-out; }
+
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #007095; }
   button:hover, button:focus, .button:hover, .button:focus {
@@ -2208,7 +2206,7 @@ div.switch {
   .pricing-table .cta-button {
     background-color: white;
     text-align: center;
-    padding: 1.25rem 1.25rem 0; }
+/*    padding: 1rem 1rem 0; */}
 
 @-webkit-keyframes rotate {
   from {
@@ -2702,18 +2700,28 @@ ul.pagination {
     clear: both; }
   .accordion dd {
     display: block;
-    margin-bottom: 0 !important; }
+/*    margin-bottom: 0 !important;*/ }
     .accordion dd.active > a {
-      background: #e8e8e8; }
+      background: #e8e8e8; 
+      color: #333;}
     .accordion dd > a {
-      background: #efefef;
-      color: #222222;
+      background: #333;
+ /*     border-style: solid;
+      border-color: #333;
+      border-width: 1px;*/
+      color: whitesmoke;
       padding: 1rem;
       display: block;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-      font-size: 1rem; }
+      text-align: center;
+      font-size: .75rem; }
+
       .accordion dd > a:hover {
-        background: #e3e3e3; }
+        background: #e3e3e3; 
+        color: #333;
+/*         -webkit-transition: background-color 200ms ease-out;
+        -moz-transition: background-color 200ms ease-out;
+        -transition: background-color 200ms ease-out; */
+      }
   .accordion .content {
     display: none;
     padding: 0.9375rem; }
