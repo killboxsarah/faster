@@ -4403,14 +4403,14 @@ ul.pagination {
   
   .panel.landingsz {
     -webkit-border-radius: 3px;
-    background-color: #ed1c24;
+    background-color: #000;
     opacity: 80%;
     background-size: 121%;
     background-position: left bottom;
     background-repeat: repeat;
     overflow-y: scroll;
 /*    height: 650px;*/
-    opacity: .95;
+    opacity: .9;
     border-radius: 3px;
 
     padding-bottom: 5%; }
