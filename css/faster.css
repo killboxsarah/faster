@@ -4378,7 +4378,7 @@ ul.pagination {
   .panel.landing {
     -webkit-border-radius: 3px;
     background-color: whitesmoke;
-    background-image: url("../images/background_store.jpg");
+    background-image: url("../images/rocket.jpg");
     background-size: 121%;
     background-position: left bottom;
     background-repeat: repeat;
@@ -4391,13 +4391,13 @@ ul.pagination {
   .panel.landings {
     -webkit-border-radius: 3px;
     background-color: whitesmoke;
-    background-image: url("../images/background_store.jpg");
-    background-size: 121%;
-    background-position: left bottom;
+    background-image: url("../images/rocket.jpg");
+    background-size: 120%;
+    background-position: top left;
     background-repeat: repeat;
     overflow-y: scroll;
 /*    height: 650px;*/
-    opacity: .75;
+    opacity: .95;
     border-radius: 3px;
     padding-bottom: 5%; }
   
@@ -4477,6 +4477,7 @@ ul.pagination {
     text-align: center;
     color: #333333;
     font-weight: normal;
+    font: inherit;
     font-size: 1.25em; }
   .pricing-table .description {
     background-color: white;
