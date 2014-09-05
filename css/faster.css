@@ -4558,6 +4558,8 @@ ul.pagination {
   margin: 0;
   padding: 0.875em 0;
   list-style-type: none;
+  background-color: #333;
+  padding-left: 4%;
   list-style-position: inside; }
   .side-nav li {
     margin: 0 0 0.4375em 0;
@@ -4568,12 +4570,17 @@ ul.pagination {
     .side-nav li.active > a:first-child {
       color: #4d4d4d;
       font-weight: bold; }
+    .side-nav a.active > a:first-child {
+      color: #4d4d4d;
+      font-weight: bold; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
       padding: 0;
       list-style: none;
       border-top-color: #e6e6e6; }
+
+
 
 /* Side Nav */
 .sub-nav {
