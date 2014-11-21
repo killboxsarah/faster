@@ -26,7 +26,7 @@ $section = "home";
 <div class="panel product full-height">
  <p class="detail" style="color:#808285;">OUR <span class="name">PRODUCTS</span> </p>
   <div class="large-12 small-12">
-    <center><a href="wheels.php"><img src="images/range.jpg" style="width:90%"></a></center>
+    <center><a href="wheels."><img src="images/range.jpg" style="width:90%"></a></center>
   </div>
 </div>
 
