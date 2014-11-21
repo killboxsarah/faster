@@ -32,9 +32,9 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
         <ul class="right">
-          <li><a href="wheels.php">PRODUCTS</a></li>
-          <li><a href="dealer.php">DEALERS</a></li>
-          <li><a href="coaching.php">COACHING</a></li>
+          <li><a href="wheels">PRODUCTS</a></li>
+          <li><a href="dealer">DEALERS</a></li>
+          <li><a href="coaching">COACHING</a></li>
           <li><a href="http://fastersoapbox.blogspot.com/" target="blank;">BLOG</a></li>
         </ul>
   </section>
