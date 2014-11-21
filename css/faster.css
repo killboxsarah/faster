@@ -1,3 +1,67 @@
+.section.shirts ul.products {width: 100%;}
+.section.shirts ul.products li {
+    display: inline-block;
+    list-style: none;
+/*    border: 1px solid #e3e1e0;*/
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    width: 30%;
+    text-align: center;
+    text-transform: lowercase;
+    background: whitesmoke;
+    margin: 1.5%;
+    padding: 1.5%;
+    position: relative;
+}
+.section.shirts ul.products li a:hover:after {
+    content: '+';
+    font-size: 50px; position: absolute; top: -10px; right: 25px; color: #f16702; vertical-align: top;    
+}
+/*.section.shirts ul.products li a {
+    background: white;
+    display: block;
+    padding: 30px 0 10px;
+    text-decoration: none;
+    color: #999;
+    opacity: .9;
+}*/
+.section.shirts ul.products li a:hover {
+    opacity: 1;
+    color: #666;
+}
+/*.section.shirts ul.products li img {
+    width: 190px;
+}*/
+.section.shirts ul.products li p {
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+}
+
+.shirt-picture {
+    float: left;
+    width: 460px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    padding: 14px;
+    background: #f0eeed;    
+}
+.shirt-picture span {
+    background: white;
+    display: block;
+    width: 100%;
+    padding: 36px 0 61px;
+}
+.shirt-picture img {width: 292px;}
+.shirt-details {
+    width: 100%;
+}
+.shirt-details form {
+    margin-left: 0;
+}
+
+
+<!-- Mix it up --> 
 .filter {
   color: #fff;
 }
@@ -23,7 +87,7 @@ p.detail {
 
 span.name {
   font-family: "montserrat", "Helvetica", Helvetica, Arial, sans-serif;
-  color: #662e91;
+  color: #86c43f;
   text-rendering: optimizeLegibility;}
 
 span.alt {
@@ -4345,7 +4409,7 @@ ul.pagination {
   .panel > :last-child {
     margin-bottom: 0; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel p {
-    color: whitesmoke;}
+ /*   color: whitesmoke;*/}
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h6 {
     line-height: 1;
     margin-bottom: 0.625em; }
@@ -4415,15 +4479,14 @@ ul.pagination {
     border-radius: 3px;
     padding-bottom: 5%; }
   
-  .panel.landingsz {
+  .panel.landingz {
     -webkit-border-radius: 3px;
-    background-color: #000;
+    background-color: #e3e3e3;
     opacity: 80%;
     background-size: 121%;
     background-position: left bottom;
     background-repeat: repeat;
     overflow-y: scroll;
-/*    height: 650px;*/
     opacity: .9;
     border-radius: 3px;
 
@@ -4439,7 +4502,23 @@ ul.pagination {
     background-color: #e3e3e3;
     opacity: .88;
     border-radius: 3px;
+    width: 100%;
     padding-bottom: 2%; }
+  .panel.dealer {
+    -webkit-border-radius: 3px;
+    background-color: #161616;
+    color: whitesmoke;
+    opacity: .92;
+    border-radius: 3px;
+    width: 100%;
+    padding-bottom: 2%; }
+.panel.product {
+    -webkit-border-radius: 3px;
+    background-color: whitesmoke;
+/*    opacity: .95;*/
+    border-radius: 3px;
+    width: 100%;
+    padding-bottom: 4%; }
 .panel.coaching {
     -webkit-border-radius: 3px;
     background-color: #e3e3e3;
@@ -4456,8 +4535,21 @@ ul.pagination {
     -webkit-border-radius: 3px;
     background-color: #808285;
     opacity: .88;
+    width: 100%;
     border-radius: 3px;
-    padding-bottom: 2%; }
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+/*    padding-bottom: 2%; */}
+
+.panel.frame {
+    -webkit-border-radius: 3px;
+    background-color: #e3e3e3;
+    opacity: .88;
+    border-radius: 3px;
+    padding: 2%
+/*    box-shadow: 1px 1px .5px #888888;*/
+  }
+
   .panel.spanner {
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -4465,16 +4557,12 @@ ul.pagination {
     opacity: .95%;
     padding-top: .1%;}
 
-.panel.product{
-  border-width: 1px;
-  padding: 1.25em;
-  margin-bottom: 5%;}
-
 /* Pricing Tables */
 .pricing-table {
   border: solid 1px #dddddd;
   margin-left: 0;
-  margin-bottom: 1.25em; }
+  margin-bottom: 1.25em; 
+/*  box-shadow: 1px 1px .5px #888888;*/}
   .pricing-table * {
     list-style: none;
     line-height: 1; }
@@ -4498,7 +4586,7 @@ ul.pagination {
     padding: 0.9375em;
     text-align: left;
     color: #777777;
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: normal;
     line-height: 1.4;
     border-bottom: dotted 1px #dddddd; }
@@ -4514,7 +4602,7 @@ ul.pagination {
 /*    background-color: whitesmoke;*/
     text-align: center;
     padding-top: 5%;
-    padding-bottom: 4%;}
+/*    padding-bottom: 4%;*/}
 
 /* Progress Bar */
 .progress {

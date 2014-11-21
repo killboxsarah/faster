@@ -1617,28 +1617,29 @@ meta.foundation-mq-topbar {
       display: block; }
 
 button, .button {
-  border-style: solid;
-  border-width: 1px;
-  cursor: pointer;
-  font-weight: normal;
-  line-height: normal;
-  margin: 0 0 1.25rem;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 1rem;
-  font-size: .85rem;
-  /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #8dc43f;
-  border-color: #007095;
-  color: white;
-  -webkit-transition: background-color 300ms ease-out;
-  -moz-transition: background-color 300ms ease-out;
-  transition: background-color 300ms ease-out; }
+border-style: solid;
+border-width: 1px;
+cursor: pointer;
+font-weight: normal;
+line-height: normal;
+margin: 0 0 1.25rem;
+position: relative;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+padding-top: 1rem;
+padding-right: 1rem;
+padding-bottom: 1.0625rem;
+padding-left: 1rem;
+font-size: .85rem;
+background-color: #86c43f;
+border-color: #e3e3e3;
+width: 80%;
+color: whitesmoke;
+-webkit-transition: background-color 300ms ease-out;
+-moz-transition: background-color 300ms ease-out;
+transition: background-color 300ms ease-out;
+}
 
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #007095; }
@@ -1902,12 +1903,12 @@ button, .button {
 
 /* Panels */
 .panel {
-  border-style: solid;
+  /*border-style: solid;
   border-width: 1px;
-  border-color: #d8d8d8;
+  border-color: #d8d8d8;*/
 /*  margin-bottom: 1.25rem;*/
   padding: 1.25rem;
-  background: #fff; }
+/*  background: #fff; */}
   .panel > :first-child {
     margin-top: 0; }
   .panel > :last-child {
@@ -2178,14 +2179,14 @@ div.switch {
     font-weight: normal;
     font-size: 1rem;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
-  .pricing-table .price {
+  /*.pricing-table .price {
     background-color: #f6f6f6;
     padding: 0.9375rem 1.25rem;
     text-align: center;
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }*/
   .pricing-table .description {
     background-color: white;
     padding: 0.9375rem;
