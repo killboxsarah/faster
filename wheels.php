@@ -18,7 +18,7 @@ include('inc/header.php');
       
           <p class="detail" style="color:#808285;">OUR <span class="name">PRODUCTS</span> </p>
                 <?php foreach($products as $product_id=> $product) { 
-                  echo '<a href="wheel.php?id=' . $product_id . '">';
+                  echo '<a href="wheel?id=' . $product_id . '">';
                     echo "
                       <div class='large-4 columns'>
                         <ul class='pricing-table right-side'>"; ?>
