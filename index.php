@@ -28,7 +28,7 @@ $section = "home";
 
    <div class="large-6 small-12 columns">
           <ul class="panel frame pricing-table left-side">
-            <center><a  href="dualcomponents"><img src="images/left.jpg" alt="Single Component"></a></center>
+            <center><a  href="multicomponents"><img src="images/left.jpg" alt="Single Component"></a></center>
             <li class="price" style="font-size:1.1em; text-aligh:center;">MULTI COMPONENT</li>
             </ul>
           </div>
