@@ -17,14 +17,7 @@
     content: '+';
     font-size: 50px; position: absolute; top: -10px; right: 25px; color: #f16702; vertical-align: top;    
 }
-/*.section.shirts ul.products li a {
-    background: white;
-    display: block;
-    padding: 30px 0 10px;
-    text-decoration: none;
-    color: #999;
-    opacity: .9;
-}*/
+
 .section.shirts ul.products li a:hover {
     opacity: 1;
     color: #666;
@@ -101,9 +94,7 @@ span.alts {
   text-rendering: optimizeLegibility;}
 
 
-/*.wheel {
-  background-image: url("../img/roll_over/Wheels.jpg");
-  background-size: 100%;
+.multiwheel {
 }
 
 .tire {
@@ -117,9 +108,10 @@ span.alts {
 }
 
 
-.wheel:hover {
-    background-image: url("../img/roll_over/Wheels_Rollover.jpg");
+.multiwheel:hover {
+    background-image: url("../img/rollover/left_hover.jpg");
     background-repeat: none;
+    opacity: 1;
     cursor: pointer;
 }
 
@@ -149,7 +141,7 @@ span.alts {
 .component.active_category {
     background-image: url("../img/roll_over/Components_Rollover.jpg");
     background-repeat: none;
-}*/
+}
 
 #fb {
   background-image: url("../img/social/facebag.jpg");

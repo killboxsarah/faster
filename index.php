@@ -24,12 +24,25 @@ $section = "home";
 <hr>
 
 <div class="panel product full-height">
- <p class="detail" style="color:#808285;">OUR <span class="name">PRODUCTS</span> </p>
-  <div class="large-12 small-12">
-    <center><a href="wheels"><img src="images/range.jpg" style="width:90%"></a></center>
-  </div>
-</div>
+ <p class="detail" >OUR <span class="name">WHEELS</span> </p>
 
+   <div class="large-6 small-12 columns">
+          <ul class="panel frame pricing-table left-side">
+            <center><a  href="dualwheels"><img src="images/left.jpg" alt="Single Component"></a></center>
+            <li class="price" style="font-size:1.1em; text-aligh:center;">MULTI COMPONENT</li>
+            </ul>
+          </div>
+      
+
+    <div class="large-6 small-12 columns">
+          <ul class="panel frame pricing-table left-side john">
+             <center><a href="singlewheel"><img src="images/right.jpg" alt="Single Component" style="max-height:349px;"></a></center>
+            <li class="price" style="font-size:1.1em; text-aligh:center;">SINGLE COMPONENT</li>
+            </ul>
+          </div>
+      
+
+  </div>
 <hr>    
 
 
