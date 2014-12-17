@@ -8,7 +8,7 @@ $product = $dualproducts[$product_id];
 
 ?>
 
-<div class="landing" style="margin-top:-19%;">
+<div class="landing">
   <img src="images/59_banner.jpg">  
 </div>
 

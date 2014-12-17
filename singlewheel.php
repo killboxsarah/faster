@@ -8,7 +8,7 @@ $product = $singleproducts[$product_id];
 
 ?>
 
-<div class="landing" style="margin-top:-19%;">
+<div class="landing" style="margin-top:-5%;">
   <img src="images/website_header.jpg">  
 </div>
 
