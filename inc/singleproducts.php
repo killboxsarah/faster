@@ -33,7 +33,7 @@ $singleproducts[102] = array(
         Lip: 7mm <br>
         Contact Patch: 31.5mm <br>
         Total Width: 38.5mm<br>
-        Durometer: 90a | 94a",
+        Durometer: 88a | 92a",
 
         "paypal" => '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
