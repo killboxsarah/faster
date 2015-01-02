@@ -13,17 +13,19 @@ $dualproducts[101] = array(
         Contact Patch: 34.5mm <br>
         Total Width: 38.5mm<br>
         Durometer: 90a | 94a",
-    "paypal" =>'<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-bottom: 0px;">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="C3C28Q55RXP3C">
-    <input type="hidden" name="on0" value="Quantity">Quantity<select name="os0">
-      <option value="Set of 8">Set of 8 $158.00 USD</option>
-      <option value="Set of 5">Set of 5 $79.00 USD</option>
-    </select> 
-    <input type="hidden" name="currency_code" value="USD">
-    <center><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></center>
-    </form>'
+    "paypal" =>'<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="C3C28Q55RXP3C">
+      <input type="hidden" name="on0" value="Quantity">Quantity</td></tr><tr><td><select name="os0">
+        <option value="Set of 8">Set of 8 $158.00 USD</option>
+        <option value="Set of 4">Set of 4 $79.00 USD</option>
+      </select> 
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      </form>'
         );
+
+
 $dualproducts[102] = array(
   "name" => "59 Demiurge Complete",
   "fname" => "Demiurge 59",
