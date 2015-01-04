@@ -385,10 +385,10 @@
 	// Ghost object in Constructor notation
 	function Ghost(name, gridPosX, gridPosY, image, gridBaseX, gridBaseY) {
 		this.name = name;
-		this.posX = gridPosX * 30;
-		this.posY = gridPosY * 30;
-		this.startPosX = gridPosX * 30;
-		this.startPosY = gridPosY * 30;
+		this.posX = gridPosX * 45;
+		this.posY = gridPosY * 55;
+		this.startPosX = gridPosX * 45;
+		this.startPosY = gridPosY * 55;
 		this.gridBaseX = gridBaseX;
 		this.gridBaseY = gridBaseY;
 		this.speed = 5;
@@ -1018,60 +1018,63 @@
 	buildWall(context_walls,0,12,18,1);
 	
 	// vertical outer
-	buildWall(context_walls,0,0,1,6);
-	buildWall(context_walls,0,7,1,6);
-	buildWall(context_walls,17,0,1,6);
-	buildWall(context_walls,17,7,1,6);
+	buildWall(context_walls,0,0,1,9);
+	buildWall(context_walls,0,10,1,3);
+	buildWall(context_walls,17,0,1,9);
+	buildWall(context_walls,17,10,1,3);
 	
-	// ghost base
-	buildWall(context_walls,7,8,1,1);
-	buildWall(context_walls,6,5,1,2);
-	buildWall(context_walls,10,4,1,1);
-	buildWall(context_walls,11,5,1,2);
-	buildWall(context_walls,6,6,6,1);
+	// // ghost base
+	// buildWall(context_walls,7,8,1,1);
+	// buildWall(context_walls,6,5,1,2);
+	// buildWall(context_walls,10,4,1,1);
+	// buildWall(context_walls,11,5,1,2);
+	// buildWall(context_walls,6,6,6,1);
 	
+
+	// quad blocks - left 
+	buildWall(context_walls,2,2,2,2);
+	buildWall(context_walls,2,5,2,2);
+
+	// line - left 
+	buildWall(context_walls,5,2,1,2);
+	buildWall(context_walls,5,5,1,3);
+
+	// line - right 
+	buildWall(context_walls,12,2,1,2);
+	buildWall(context_walls,12,5,1,3);
+
+	//vertical right line
+	buildWall(context_walls,11,7,3,1);
+
+	// quad blocks - right
+	buildWall(context_walls,14,2,2,2);
+	buildWall(context_walls,14,5,2,2);
+
+	// Vertical Faster letter
+	buildWall(context_walls,7,2,2,7);
+	
+	// Horizontal top of T
+	buildWall(context_walls,8,2,3,2);
+	buildWall(context_walls,8,5,3,2);
+
+	// Left Enterance 
+	buildWall(context_walls,0,8,4,1);
+	buildWall(context_walls,0,10,4,1);
+
+	// right Enterance 
+	buildWall(context_walls,16,8,2,1);
+	buildWall(context_walls,16,10,2,1);
+
+	// line - left - lower
+	buildWall(context_walls,5,9,1,2);
+	buildWall(context_walls,5,10,4,1);
+
+	// Ghost base
+	buildWall(context_walls,10,9,5,2);
+
 	// ghost base door
-	context_walls.fillRect(8*2*pacman.radius,pacman.radius/2+4*2*pacman.radius+5, 4*pacman.radius, 1);
+	context_walls.fillRect(11*2*pacman.radius,pacman.radius/2+8*2*pacman.radius+5, 4*pacman.radius, 1);
 	
-	// single blocks
-	buildWall(context_walls,4,0,1,2);
-	buildWall(context_walls,13,0,1,2);
-	
-	buildWall(context_walls,2,2,1,2);
-	buildWall(context_walls,6,2,2,1);
-	buildWall(context_walls,15,2,1,2);
-	buildWall(context_walls,10,2,2,1);
-	
-	buildWall(context_walls,2,3,2,1);
-	buildWall(context_walls,14,3,2,1);
-	buildWall(context_walls,5,3,1,1);
-	buildWall(context_walls,12,3,1,1);
-	buildWall(context_walls,3,3,1,3);
-	buildWall(context_walls,14,3,1,3);
-	
-	buildWall(context_walls,3,4,1,1);
-	buildWall(context_walls,14,4,1,1);
-	
-	buildWall(context_walls,0,5,2,1);
-	buildWall(context_walls,3,5,2,1);
-	buildWall(context_walls,16,5,2,1);
-	buildWall(context_walls,13,5,2,1);
-	
-	buildWall(context_walls,0,7,2,2);
-	buildWall(context_walls,16,7,2,2);
-	buildWall(context_walls,3,7,2,2);
-	buildWall(context_walls,13,7,2,2);
-	
-	buildWall(context_walls,4,8,2,2);
-	buildWall(context_walls,12,8,2,2);
-	buildWall(context_walls,5,8,3,1);
-	buildWall(context_walls,10,8,3,1);
-	
-	buildWall(context_walls,2,10,1,1);
-	buildWall(context_walls,15,10,1,1);
-	buildWall(context_walls,7,10,4,1);
-	buildWall(context_walls,4,11,2,2);
-	buildWall(context_walls,12,11,2,2);
 	/* ------------ End Pre-Build Walls  ------------ */
 	
 // Check if a new cache is available on page load.	 
