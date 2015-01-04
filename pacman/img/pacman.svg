@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="360px" height="360px" viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="0" y="0" width="360" height="360"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="#ED1C24" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" d="M23.005,180
+		C23.005,93.294,93.294,23.005,180,23.005S336.994,93.294,336.994,180c0,86.707-70.289,156.996-156.995,156.996
+		S23.005,266.707,23.005,180"/>
+	
+		<circle display="none" clip-path="url(#SVGID_2_)" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" cx="180" cy="180" r="156.995"/>
+	<path clip-path="url(#SVGID_2_)" fill="#003399" d="M71.709,180c0-59.807,48.483-108.29,108.29-108.29s108.29,48.483,108.29,108.29
+		S239.807,288.291,180,288.291S71.709,239.807,71.709,180"/>
+	
+		<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" cx="179.999" cy="180" r="108.29"/>
+	
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#CAA61F" stroke-width="8" stroke-linecap="round" stroke-miterlimit="10" d="
+		M62.748,117.128"/>
+	<polygon clip-path="url(#SVGID_2_)" fill="#ED1C24" points="180,107.777 196.934,159.896 251.734,159.896 207.4,192.105 
+		224.334,244.223 180,212.012 135.666,244.223 152.6,192.105 108.266,159.896 163.065,159.896 	"/>
+	
+		<polygon clip-path="url(#SVGID_2_)" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		180,107.777 196.934,159.896 251.734,159.896 207.4,192.105 224.334,244.223 180,212.012 135.666,244.223 152.6,192.105 
+		108.266,159.896 163.065,159.896 	"/>
+	
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M247.289,160.37"/>
+	<path clip-path="url(#SVGID_2_)" fill="#CAA61F" d="M192.957,159.37"/>
+</g>
+</svg>
