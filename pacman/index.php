@@ -163,7 +163,7 @@
 </div>
 </div>
 
-	<script src="pacgal-canvas.js" type="text/javascript"></script>
+	<script src="pacman-canvas.js" type="text/javascript"></script>
 
 
 </body>
