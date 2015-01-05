@@ -21,7 +21,6 @@
 	
 	var mapConfig = 'data/map.json';
 	
-	stuff 
 	
 	/* AJAX stuff */
 	function getHighscore() {
