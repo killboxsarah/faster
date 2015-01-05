@@ -1066,8 +1066,8 @@
 	buildWall(context_walls,10,10,5,1);
 	buildWall(context_walls,10,9,1,2);
 	buildWall(context_walls,14,9,1,2);
-	buildWall(context_walls,13,8,1,1);
-	buildWall(context_walls,11,8,1,1);
+	// buildWall(context_walls,13,8,1,1);
+	// buildWall(context_walls,11,8,1,1);
 
 
 	// ghost base door
