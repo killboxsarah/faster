@@ -161,6 +161,7 @@
 
 </div>
 </div>
+stuff
 </div>
 
 	<script src="pacman-canvas.js" type="text/javascript"></script>
