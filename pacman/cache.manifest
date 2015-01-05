@@ -4,7 +4,7 @@ CACHE MANIFEST
 CACHE:
 
 # HTML
-index.htm
+index.php
 
 # CSS
 pacman-canvas.css

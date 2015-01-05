@@ -281,7 +281,7 @@
 			
 			// initalize Ghosts, avoid memory flooding
 			if (pinky == null) {
-				pinky = new Ghost("pinky",12,9,'img/pinky.svg',2,2);
+				pinky = new Ghost("pinky",11,9,'img/pinky.svg',2,2);
 				inky = new Ghost("inky",12,9,'img/inky.svg',13,11);
 				blinky = new Ghost("blinky",13,9,'img/blinky.svg',13,0);
 				clyde = new Ghost("clyde",13,9,'img/clyde.svg',2,11);
@@ -497,13 +497,12 @@
 					if ((game.pillCount > 104-30)) this.stop = true;
 					else this.stop = false;
 				}
-				
-				if ((this.getGridPosY() == 5) && this.inGrid()) {
-					if ((this.getGridPosX() == 7)) this.setDirection(right);
-					if ((this.getGridPosX() == 8) || this.getGridPosX() == 9) this.setDirection(up);
-					if ((this.getGridPosX() == 10)) this.setDirection(left);
+
+				// If they are in the ghost house in the new map, always send them up
+				if ((this.getGridPosY() == 9) && this.inGrid()) {
+					if (([11,12,13].indexOf(this.getGridPosX()) > 0)) this.setDirection(up);
 				}
-				if ((this.getGridPosY() == 4) && ((this.getGridPosX() == 8) || (this.getGridPosX() == 9)) && this.inGrid()) { 
+				if ((this.getGridPosY() == 8) && (([11,12,13].indexOf(this.getGridPosX()) > 0)) && this.inGrid()) {
 					console.log("ghosthouse -> false");
 					this.ghostHouse = false;
 					}
