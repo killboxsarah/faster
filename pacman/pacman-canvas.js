@@ -1062,9 +1062,12 @@
 	buildWall(context_walls,5,10,3,1);
 
 	// Ghost base
-	buildWall(context_walls,9,10,6,1);
-	buildWall(context_walls,9,9,1,2);
+	buildWall(context_walls,10,10,5,1);
+	buildWall(context_walls,10,9,1,2);
 	buildWall(context_walls,14,9,1,2);
+	// buildWall(context_walls,13,8,1,1);
+	// buildWall(context_walls,10,8,1,1);
+
 
 	// ghost base door
 	context_walls.fillRect(11.5*2*pacman.radius,pacman.radius/2+8*2*pacman.radius+5, 4*pacman.radius, 1);

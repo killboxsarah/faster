@@ -224,7 +224,7 @@
 				{ "col": 11, "type": "wall" },
                 { "col": 12, "type": "null" },
 				{ "col": 13, "type": "null" },
-                { "col": 14, "type": "wall" },
+                { "col": 14, "type": "null" },
 				{ "col": 15, "type": "wall" },
                 { "col": 16, "type": "pill" },
 				{ "col": 17, "type": "pill" },
