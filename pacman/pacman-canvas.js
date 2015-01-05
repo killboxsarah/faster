@@ -1042,7 +1042,9 @@
 	buildWall(context_walls,14,5,2,2);
 
 	// Vertical Faster letter
-	buildWall(context_walls,7,2,2,7);
+	buildWall(context_walls,7,2,2,2);
+	buildWall(context_walls,7,5,2,3);
+	buildWall(context_walls,7,9,2,2);
 	
 	// Horizontal top of F
 	buildWall(context_walls,8,2,3,2);
@@ -1058,14 +1060,14 @@
 
 	// line - left - lower
 	buildWall(context_walls,5,9,1,4);
-	buildWall(context_walls,5,10,3,1);
+	// buildWall(context_walls,5,10,3,1);
 
 	// Ghost base
 	buildWall(context_walls,10,10,5,1);
 	buildWall(context_walls,10,9,1,2);
 	buildWall(context_walls,14,9,1,2);
-	// buildWall(context_walls,13,8,1,1);
-	// buildWall(context_walls,10,8,1,1);
+	buildWall(context_walls,13,8,1,1);
+	buildWall(context_walls,11,8,1,1);
 
 
 	// ghost base door

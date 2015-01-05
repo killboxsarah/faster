@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-
 <!--<html lang="en">-->
 <html lang="en" manifest="cache.manifest">
 <head>
 	<meta charset="utf-8" />
-	<title>Faster PuckLady</title>
+	<title>PAC-GAL</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="pacman-canvas.css">
 	
