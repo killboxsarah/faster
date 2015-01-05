@@ -58,13 +58,13 @@
 		<h1>Instructions</h1>
 		<div class="nomobile">
 			<h2>Controls</h2>
-			<p>Use your arrow keys or [W,A,S,D] keys to navigate pacman.</p>
+			<p>Use your arrow keys or [W,A,S,D] keys to navigate pacgal.</p>
 			<p>To pause / resume the game press [SPACE] or [ESC] or just click into the game area.</p>
 		</div>
 		<div class="mobile">
 			<h2>Controls</h2>
-			<p>Use swipe gestures to navigate pacman.</p>
-			<p>Alternatively use the Arrow Buttons underneath the game area to navigate pacman.</p>
+			<p>Use swipe gestures to navigate pacgal.</p>
+			<p>Alternatively use the Arrow Buttons underneath the game area to navigate pacgal.</p>
 			<p>To pause / resume the game, touch the game area once.</p>
 		</div>
 	</div>
@@ -75,11 +75,6 @@
 	<div class="button" id="back">back</div>
 	<div>
 		<h1>Info</h1>
-		<p>Current Version: 0.84 (09.11.2014) (<a href="#" id="updateCode">get latest</a>)</p>
-		<img src="img/platzh1rsch-logo.png">
-		<p>Pacman Canvas is Open Source, written by <a href="http://platzh1rsch.ch">platzh1rsch</a>. You can get the code on <a target="_blank" href="https://github.com/platzhersh/pacman-canvas" target="_blank">github</a>.</p>
-		<p>If you have any suggestions how to make this app better, please post your suggestion / request on <a target="_blank" href="https://platzh1rsch.uservoice.com/">uservoice</a>.</p>
-		<p>
 	</div>
 </div>
 
@@ -100,7 +95,7 @@
 		<div id="canvas-container">
 			<div id="canvas-overlay-container">
 				<div id="canvas-overlay-content">
-					<div id="title">Pacman Canvas</div>
+					<div id="title">Pacgal Canvas</div>
 					<div><p id="text">Click to Play</p></div>
 				</div>
 			</div>
@@ -168,7 +163,7 @@
 </div>
 </div>
 
-	<script src="pacman-canvas.js" type="text/javascript"></script>
+	<script src="pacgal-canvas.js" type="text/javascript"></script>
 
 
 </body>
