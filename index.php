@@ -36,7 +36,7 @@ $section = "home";
 
     <div class="large-6 small-12 columns">
           <ul class="panel frame pricing-table left-side john">
-             <center><a href="singlecomponent"><img src="images/right.jpg" alt="Single Component" style="max-height:349px;"></a></center>
+             <center><a href="singlecomponents"><img src="images/right.jpg" alt="Single Component" style="max-height:349px;"></a></center>
             <li class="price" style="font-size:1.1em; text-aligh:center;">SINGLE COMPONENT</li>
             </ul>
           </div>
