@@ -53,7 +53,7 @@ $singleproducts[101] = array(
 $singleproducts[102] = array(
   "name" => "Demiblue",
   "fname" => "Demilune",
-  "img" => "images/demiblue.jpg",
+  "img" => "images/demiblues.jpg",
   "price" => 125.5,
   "details" => "Faster's Vanguard dual-durometer urethane is now available in a lightweight single-component wheel. 
                 Experience Faster's signature responsiveness on a polyurethane hub designed for strength and pitch.
