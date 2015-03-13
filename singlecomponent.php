@@ -3,7 +3,10 @@ $pagetitle = "Faster Wheels";
 include('inc/header.php'); 
 include ("inc/singleproducts.php"); 
 
-$product_id = 102;
+// $product_id = 102;
+// $product = $singleproducts[$product_id];
+
+$product_id = $_GET["id"];
 $product = $singleproducts[$product_id];
 
 ?>
