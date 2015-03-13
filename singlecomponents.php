@@ -17,7 +17,7 @@ include('inc/header.php');
         <div class="breadcrumb"><a href="index" style="color:#662e91;">Faster </a> &gt; <?php echo $pagetitle; ?></div>
       
           <p class="detail" style="color:#808285;">OUR <span class="name">PRODUCTS</span> </p>
-                <?php foreach($products as $product_id=> $product) { 
+                <?php foreach($singleproducts as $product_id=> $product) { 
                   echo '<a href="wheel?id=' . $product_id . '">';
                     echo "
                       <div class='large-6 columns'>
