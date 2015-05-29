@@ -65,7 +65,7 @@ $(function(){
      ];
 
     $.each(dealers, function( index, value ) {
-        var icon = L.MakiMarkers.icon({icon: "circle", color: "#8dc43f", size: "s"});
+        var icon = L.MakiMarkers.icon({icon: "circle", color: "#161616", size: "s"});
         L.marker([value['lat'], value['lng']], {icon: icon}).addTo(map).
             bindPopup(value['name'] + "<br /> " + value['address']);
     });
