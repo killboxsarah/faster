@@ -32,7 +32,7 @@ $product = $dualproducts[$product_id];
 									<h3><?php echo $product["name"]; ?></h3>
 					            </div>
 					        </li>
-					        <li class="price">$<?php echo $product["price"]; ?> USD
+					  <!--       <li class="price">$<?php echo $product["price"]; ?> USD -->
 					        </li>
 					        <li class="description"><?php echo $product["details"]; ?>
 					        <br>
