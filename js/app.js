@@ -58,13 +58,14 @@ $(function(){
          {name:'Electric Skate Co.',address:'676 King St<br /> W. Kitchner, ON, Canada, N2G 1E2 <br /><a target="_blank" href="http://www.electricskateco.com/">http://www.electricskateco.com/</a>',lat:43.454914, lng: -80.504594},
          {name:'Flat Track Derby Limited',address:'<a target="_blank" href="http://www.flattrackderby.co.nz/">http://www.flattrackderby.co.nz/</a>',lat:-37.7155221, lng: 176.1328568},
          {name:'Hit This! Derby Gear',address:'<a target="_blank" href="http://www.hitthisderbygear.com/">http://www.hitthisderbygear.com/</a>',lat:44.9329915, lng: -123.0282074},
-         {name:'Pivot Center',address:'3412 Inventors Rd<br /> Norfolk, Virginia 23502<br /><a target="_blank" href="https://www.facebook.com/PivotCenter">https://www.facebook.com/PivotCenter</a>',lat:36.8558053610978, lng: -76.2441626806323}
+         {name:'Pivot Center',address:'3412 Inventors Rd<br /> Norfolk, Virginia 23502<br /><a target="_blank" href="https://www.facebook.com/PivotCenter">https://www.facebook.com/PivotCenter</a>',lat:36.8558053610978, lng: -76.2441626806323},
+         {name:'RollerSkatin.ca',address:'847 Berkshire Drive<br />Woodstock, Ontario, Canada  N4S 8R6<br />1-855-ROLL-SKATE<br /><a target="_blank" href="http://www.RollerSkatin.ca">http://www.RollerSkatin.ca</a>',lat:43.1361656, lng: -80.7413994}
 
 
      ];
 
     $.each(dealers, function( index, value ) {
-        var icon = L.MakiMarkers.icon({icon: "circle", color: "#8dc43f", size: "s"});
+        var icon = L.MakiMarkers.icon({icon: "circle", color: "#161616", size: "s"});
         L.marker([value['lat'], value['lng']], {icon: icon}).addTo(map).
             bindPopup(value['name'] + "<br /> " + value['address']);
     });
