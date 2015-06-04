@@ -14,7 +14,7 @@ include('inc/header.php');
   <div class="row">
     <div class="large-12 columns">
       <div class="panel about full-height" style="opacity:1;">
-        <div class="breadcrumb"><a href="index" style="color:#662e91;">Faster </a> &gt; <?php echo $pagetitle; ?></div>
+        <div class="breadcrumb"><a href="index" style="color:#662e91;">Faster </a> <!-- &gt; <?php echo $pagetitle; ?> --></div>
       
           <p class="detail" style="color:#808285;">OUR <span class="name">PRODUCTS</span> </p>
                 <?php foreach($dualproducts as $product_id=> $product) { 
