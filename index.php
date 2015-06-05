@@ -33,7 +33,7 @@ $section = "home";
         <br><br>Forget what you think you know. This is Faster.<br>
         <br></div>
 
-      <div class="large-6 small-12 columns hide-for-small">
+      <div class="large-6 small-12 columns">
              <iframe width="440" height="315" src="https://www.youtube.com/embed/lnUpxetTqBU" frameborder="0" allowfullscreen></iframe>
         </div>
 
