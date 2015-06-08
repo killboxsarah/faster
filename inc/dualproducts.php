@@ -8,6 +8,7 @@ $dualproducts[101] = array(
   without giving up the speed factor, and without the guesswork of 'pusher wheels'.
    The 90A gives you the grip when you need it, while the 94A does away with unnecessary fatigue from overly sticky wheels.
         <br><br>
+        Set of 8 Wheels<br>
         Contact Patch: 34.5mm <br>
         Total Width: 38.5mm<br>
         Durometer: 90a | 94a <br>
@@ -30,6 +31,7 @@ $dualproducts[102] = array(
    "img" => "img/products/du59_wood.jpg",
    "details" => "The Demiurge is our fastest dual durometer wheel. Boom. The 93A inside edges on a 96A wheel works to give you the perfect combination of speed and edging on a variety of competition surfaces.
         <br><br>
+        Set of 8 Wheels<br>
         Contact Patch: 34.5mm <br>
         Total Width: 38.5mm<br>
         Durometer: 93a | 96a <br>
@@ -52,6 +54,7 @@ $dualproducts[103] = array(
      "img" => "img/products/dr59_wood.jpg",  
     "details" => "The Demirojo allows speed and agility to play the same game. The 92A allows you to control your edges, and the 96A provides sweet break and slide making it the perfect wheel for high speed footwork across a variety of surfaces.
         <br><br>
+        Set of 8 Wheels<br>
       Contact Patch: 34.5mm <br>
         Total Width: 38.5mm or 42.5mm<br>
         Durometer: 92a | 96a <br>
@@ -77,6 +80,7 @@ $dualproducts[104] = array(
     "details" =>"
         A no fuss, hard, blisteringly fast wheel, the Natural is THE choice for skaters looking for top end speed above anything else. The iconic 97A Vanguard urethane combined with the Faster CNC aluminum hub, provides a solid, structured and fast roll, without sacrificing grip.
         <br><br>
+        Set of 8 Wheels<br>
         Height: 62mm <br>
         Contact Patch: 37.5mm <br>
         Total Width: 42.5mm<br>
@@ -101,6 +105,7 @@ $dualproducts[105] = array(
     "img" => "img/products/dr59tire_wood.jpg",    
     "details" => "The Demirojo allows speed and agility to play the same game. The 92A allows you to control your edges, and the 96A provides sweet break and slide making it the perfect wheel for high speed footwork across a variety of surfaces.
         <br><br>
+        Set of 8 Wheels<br>
       Contact Patch: 34.5mm <br>
         Total Width: 38.5mm or 42.5mm<br>
         Durometer: 92a | 96a <br>
@@ -124,6 +129,7 @@ $dualproducts[106] = array(
     "img" => "img/products/du59tire_wood.jpg ",   
      "details" => "The Demiurge is our fastest dual durometer wheel. Boom. The 93A inside edges on a 96A wheel works to give you the perfect combination of speed and edging on a variety of competition surfaces.
         <br><br>
+        Set of 8 Wheels<br>
         Contact Patch: 34.5mm <br>
         Total Width: 38.5mm<br>
         Durometer: 93a | 96a <br>
@@ -148,6 +154,7 @@ $dualproducts[107] = array(
   without giving up the speed factor, and without the guesswork of 'pusher wheels'.
    The 90A gives you the grip when you need it, while the 94A does away with unnecessary fatigue from overly sticky wheels.
         <br><br>
+        Set of 8 Wheels<br>
         Contact Patch: 34.5mm <br>
         Total Width: 38.5mm<br>
         Durometer: 90a | 94a <br>
@@ -172,6 +179,7 @@ $dualproducts[108] = array(
     "details" =>"
         A no fuss, hard, blisteringly fast wheel, the Natural is THE choice for skaters looking for top end speed above anything else. The iconic 97A Vanguard urethane combined with the Faster CNC aluminum hub, provides a solid, structured and fast roll, without sacrificing grip.
         <br><br>
+        Set of 8 Wheels<br>
         Height: 62mm <br>
         Contact Patch: 37.5mm <br>
         Total Width: 42.5mm<br>

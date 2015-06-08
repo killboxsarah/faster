@@ -11,8 +11,12 @@ $product = $singleproducts[$product_id];
 
 ?>
 
-<div class="landing" style="margin-top:-5%;">
+<!-- <div class="landing" style="margin-top:-5%;">
   <img src="images/website_header.jpg">  
+</div> -->
+
+<div class="landing" style="margin-top:-19%;">
+  <img src="images/flywheel_promo.jpg">  
 </div>
 
 

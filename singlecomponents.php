@@ -8,7 +8,7 @@ include('inc/header.php');
 
 
 <div class="landing" style="margin-top:-19%;">
-  <img src="images/59_banner.jpg">  
+  <img src="images/flywheel_promo.jpg">  
 </div>
 
   <div class="row">

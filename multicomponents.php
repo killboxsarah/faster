@@ -7,7 +7,7 @@ include('inc/header.php');
 
 
 
-<div class="landing">
+<div class="landing" style="margin-top:-19%;">
   <img src="images/59_banner.jpg">  
 </div>
 
