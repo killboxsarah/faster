@@ -18,7 +18,7 @@ function get_list_view_html($product_id, $product) {
 $singleproducts = array();
 $singleproducts[101] = array(
   "name" => "Red&White FlyWheel",
-  // "fname" => "Demirojo",
+  "fname" => "Red&White FlyWheel",
   "img" => "images/red_cement.jpg",
   "price" => 125,
   "details" => "Faster's Vanguard dual-durometer urethane is now available in a lightweight single-component wheel. 
@@ -52,7 +52,7 @@ $singleproducts[101] = array(
 
 $singleproducts[102] = array(
   "name" => "Purple&White FlyWheel",
-  // "fname" => "Demilune",
+  "fname" => "Purple&White FlyWheel",
   "img" => "images/purple_cement.jpg",
   "price" => 125,
   "details" => "Faster's Vanguard dual-durometer urethane is now available in a lightweight single-component wheel. 
