@@ -21,8 +21,13 @@ $singleproducts[101] = array(
   "fname" => "Red&White FlyWheel",
   "img" => "images/red_cement.jpg",
   "price" => 125,
-  "details" => "Faster's Vanguard dual-durometer urethane is now available in a lightweight single-component wheel. 
-                Experience Faster's signature responsiveness on a polyurethane hub designed for strength and pitch.
+  "details" => "Faster introduces the FlyWheel, our lightest wheel to date. 
+  FlyWheels offer an innovative 'pitch perfect' hub focused on the optimal balance of strength and a tight turning radius. 
+  The FlyWheels hub accentuates Faster's trademark dual-durometer urethane to hold the tightest curve - or easily release for 
+  smooth break and slide. FlyWheels feature both our complex-curve lip and a bevel profile. The complex-curve lip on our Skinny 
+  FlyWheels provide maximum snap on a narrow wheel. The beveled profile of our 59mm wheels puts the breaks on a slide for tight 
+  edges and direction changes.
+  
         <br><br>
         <b>59</b><br>
         Set of 8 Wheels<br>
@@ -55,8 +60,12 @@ $singleproducts[102] = array(
   "fname" => "Purple&White FlyWheel",
   "img" => "images/purple_cement.jpg",
   "price" => 125,
-  "details" => "Faster's Vanguard dual-durometer urethane is now available in a lightweight single-component wheel. 
-                Experience Faster's signature responsiveness on a polyurethane hub designed for strength and pitch.
+  "details" => "Faster introduces the FlyWheel, our lightest wheel to date. 
+  FlyWheels offer an innovative 'pitch perfect' hub focused on the optimal balance of strength and a tight turning radius. 
+  The FlyWheels hub accentuates Faster's trademark dual-durometer urethane to hold the tightest curve - or easily release for 
+  smooth break and slide. FlyWheels feature both our complex-curve lip and a bevel profile. The complex-curve lip on our Skinny 
+  FlyWheels provide maximum snap on a narrow wheel. The beveled profile of our 59mm wheels puts the breaks on a slide for tight 
+  edges and direction changes.
         <br><br>
         <b>59</b><br>
         Set of 8 Wheels<br>

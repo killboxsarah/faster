@@ -49,7 +49,7 @@ $section = "home";
 
    <div class="large-6 small-12 columns">
           <ul class="panel frame pricing-table left-side">
-            <center><a  href="multicomponents"><img src="images/front_page_multi.jpg" alt="Multi Component" style= "max-height:349px"></a></center>
+            <center><a  href="multicomponents"><img src="images/dual.jpg" alt="Multi Component" style= "max-height:349px"></a></center>
             <li class="price" style="font-size:1.1em; text-aligh:center;">MULTI COMPONENT</li>
             </ul>
           </div>
@@ -57,8 +57,8 @@ $section = "home";
 
     <div class="large-6 small-12 columns">
           <ul class="panel frame pricing-table left-side john">
-             <center><a  href="singlecomponents"><img src="images/flywheel_front.jpg" alt="Single Component" style="max-height:349px;"></a></center>
-            <li class="price" style="font-size:1.1em; text-aligh:center;">FlyWheel - COMING SOON</li>
+             <center><a  href="singlecomponents"><img src="images/fly.jpg" alt="Single Component" style="max-height:349px;"></a></center>
+            <li class="price" style="font-size:1.1em; text-aligh:center;">FlyWheel</li>
             </ul>
           </div>
       
