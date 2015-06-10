@@ -6,7 +6,7 @@ $section = "home";
 
 
 <div class="landing">
-  <img src="images/website-banner_2.jpg">  
+  <img src="images/hero.jpg">  
 </div>
 
 <div class ="panel dealer">
@@ -21,7 +21,7 @@ $section = "home";
   </div>
 </div>
 
-<hr>
+<!-- <hr> -->
     <div class ="panel product full-height" style="background-color: #662e91;">
      <p class="detail" style="color: #161616;">SKATE <span class="name">FASTER</span> </p>
   
@@ -42,7 +42,7 @@ $section = "home";
         </div>
 
     </div>
-    <hr>
+<!--     <hr> -->
 
 <div class="panel product full-height" style="background-color: #eeeeee;">
  <p class="detail" style="color:#808285;" >FASTER <span class="name" style="color:#ed1c24;">WHEELS</span> </p>
@@ -50,7 +50,7 @@ $section = "home";
    <div class="large-6 small-12 columns">
           <ul class="panel frame pricing-table left-side">
             <center><a  href="multicomponents"><img src="images/dual.jpg" alt="Multi Component" style= "max-height:349px"></a></center>
-            <li class="price" style="font-size:1.1em; text-aligh:center;">MULTI COMPONENT</li>
+            <li class="price" style="font-size:1.1em; text-aligh:center;background-color: #e3e3e3;font-size: 1.4em;padding-bottom: 0px;padding-top: 3%;">MULTI-COMPONENT</li>
             </ul>
           </div>
       
@@ -58,7 +58,7 @@ $section = "home";
     <div class="large-6 small-12 columns">
           <ul class="panel frame pricing-table left-side john">
              <center><a  href="singlecomponents"><img src="images/fly.jpg" alt="Single Component" style="max-height:349px;"></a></center>
-            <li class="price" style="font-size:1.1em; text-aligh:center;">FlyWheel</li>
+            <li class="price" style="font-size:1.1em; text-aligh:center;background-color: #e3e3e3;font-size: 1.4em;padding-bottom: 0px;padding-top: 3%;">FLYWHEEL</li>
             </ul>
           </div>
       
