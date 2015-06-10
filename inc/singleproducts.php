@@ -22,11 +22,9 @@ $singleproducts[101] = array(
   "img" => "images/red_cement.jpg",
   "price" => 125,
   "details" => "Faster introduces the FlyWheel, our lightest wheel to date. 
-  FlyWheels offer an innovative 'pitch perfect' hub focused on the optimal balance of strength and a tight turning radius. 
-  The FlyWheels hub accentuates Faster's trademark dual-durometer urethane to hold the tightest curve - or easily release for 
-  smooth break and slide. FlyWheels feature both our complex-curve lip and a bevel profile. The complex-curve lip on our Skinny 
-  FlyWheels provide maximum snap on a narrow wheel. The beveled profile of our 59mm wheels puts the breaks on a slide for tight 
-  edges and direction changes.
+  FlyWheels offer an innovative 'pitch perfect' hub engineered for optimal  strength and turning radius.  
+  The FlyWheel's hub accentuates Faster's trademark dual-durometer urethane to hold the tightest curve 
+  - or easily release for smooth brake and slide.
   
         <br><br>
         <b>59</b><br>
@@ -61,11 +59,9 @@ $singleproducts[102] = array(
   "img" => "images/purple_cement.jpg",
   "price" => 125,
   "details" => "Faster introduces the FlyWheel, our lightest wheel to date. 
-  FlyWheels offer an innovative 'pitch perfect' hub focused on the optimal balance of strength and a tight turning radius. 
-  The FlyWheels hub accentuates Faster's trademark dual-durometer urethane to hold the tightest curve - or easily release for 
-  smooth break and slide. FlyWheels feature both our complex-curve lip and a bevel profile. The complex-curve lip on our Skinny 
-  FlyWheels provide maximum snap on a narrow wheel. The beveled profile of our 59mm wheels puts the breaks on a slide for tight 
-  edges and direction changes.
+  FlyWheels offer an innovative 'pitch perfect' hub engineered for optimal  strength and turning radius.  
+  The FlyWheel's hub accentuates Faster's trademark dual-durometer urethane to hold the tightest curve 
+  - or easily release for smooth brake and slide.
         <br><br>
         <b>59</b><br>
         Set of 8 Wheels<br>
