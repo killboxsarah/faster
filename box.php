@@ -15,7 +15,7 @@ $section = "special";
     <div class="large-6 small-12 columns">
           <ul class="panel frame pricing-table left-side john">
              <center><img src="images/boxs.jpg" alt="Multi Component" style= "max-height:600px"></a></center>
-            <li class="price" style="font-size:1.1em; text-aligh:center;background-color: #e3e3e3;font-size: 1.4em;padding-bottom: 0px;padding-top: 3%;">Domestic Shipping Included</li>
+            <li class="price" style="font-size:1.1em; text-aligh:center;background-color: #e3e3e3;font-size: 1.4em;padding-bottom: 0px;padding-top: 3%;">$205</li>
             </ul>
           </div>
 
