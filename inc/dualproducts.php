@@ -215,6 +215,7 @@ $dualproducts[124] = array(
     "img" => "img/products/hubs.jpg",     
     "price" => 92.5,
     "details" =>"Precision engineered hubs of the tightest tollerance. Faster sets the curve for high quality manufactured hubs.", 
+   
     "paypal" =>'<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-bottom: 0px;">
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="5P9B6N6F867VE">
@@ -227,6 +228,27 @@ $dualproducts[124] = array(
     <input type="hidden" name="currency_code" value="USD">
     <center><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></center>
     </form>'
+);
+
+$dualproducts[125] = array(
+    "name" => "Faster Reglan Tee",
+    "fname" => "Reglan",
+    "img" => "img/products/reglan.jpg",     
+    "price" => 25,
+    "details" =>"Faster Wear.", 
+    "paypal" =>'<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-bottom: 0px;">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="CHEHED9DCU88C">
+
+        <input type="hidden" name="on0" value="Size">Size<select name="os0">
+            <option value="Small">Small </option>
+            <option value="Medium">Medium </option>
+            <option value="Large">Large </option>
+        </select> 
+
+        <input type="hidden" name="currency_code" value="USD">
+        <center><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></center>
+        </form>'
 );
 
 ?>
