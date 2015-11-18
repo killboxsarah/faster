@@ -38,7 +38,8 @@ $product = $dualproducts[$product_id];
 					        <br>
 					        <?php echo $product["paypal"]; ?>
 					        </a></li>
-					      </ul>						
+					      </ul>		
+					      				
 					  </div>              
 			</div>
 		</div>

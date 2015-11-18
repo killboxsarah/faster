@@ -27,12 +27,14 @@ include('inc/header.php');
                         <div class="price">
                        <?php echo $product["fname"]; ?>
                        </div> 
+
               <?php echo '</ul>';
                     echo '</div>';
 
                     echo "</a>";
                     echo "</li>";
                   }?>
+                  
           </div>
       </div>
     </div>
