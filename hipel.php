@@ -81,7 +81,7 @@ $section = "Sponsorship";
 
         <div class="large-4 small-12 columns">
            <ul class="pricing-table" style="background-color: #fff;">
-            <center><img src="images/logo.png" style="max-height: 225px background-color: #fff;"></center>
+            <center><img src="images/logo.png" style="max-height: 205px background-color: #fff;"></center>
             </li>
             <li class="price">FASTER SKATES</li>
           </ul>
