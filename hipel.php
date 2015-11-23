@@ -45,7 +45,7 @@ $section = "Sponsorship";
         <div class="large-12 small-12 columns">
           <ul class="pricing-table" style="background-color: #fff;">
           <li class="bullet-item">Chicks in Bowls</li>
-           <center><iframe width="900" height="500" src="//www.chicksinbowls.com/derby-vs-ramps/" frameborder="0"></iframe></center>    
+           <center><iframe width="900" height="400" src="//www.chicksinbowls.com/derby-vs-ramps/" frameborder="0"></iframe></center>    
         </ul>
         </div>
 
