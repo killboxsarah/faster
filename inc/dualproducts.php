@@ -253,6 +253,8 @@ $dualproducts[125] = array(
 
 ?>
 
+
+
 <!-- c-clip 
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-bottom: 0px;">
     <input type="hidden" name="cmd" value="_s-xclick">
