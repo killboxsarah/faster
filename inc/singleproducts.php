@@ -130,7 +130,7 @@ $singleproducts[103] = array(
 $singleproducts[104] = array(
   "name" => "FlyWheels",
   "fname" => "FlyWheels",
-  "img" => "images/flywheel.jpg",
+  "img" => "images/FlyWheel.jpg",
     "price" => 125,
   "details" => "Faster introduces the FlyWheel, our lightest wheel to date. 
   FlyWheels offer an innovative 'pitch perfect' hub engineered for optimal  strength and turning radius.  
