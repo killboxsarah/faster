@@ -115,12 +115,12 @@ $singleproducts[103] = array(
         Total Width: 38.5mm<br>
         Durometer: 90a | 94a",
 
-        "paypal" => '
-
+        "paypal" => '<form target="paypal" 
 
               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
       <input type="hidden" name="cmd" value="_s-xclick">
       <input type="hidden" name="hosted_button_id" value="HLJY2WEHHG9ES">
+      <input type="hidden" name="on0" value="Height/Profile">Height/Profile</td></tr><tr><td><select name="os0">
         <option value="62mm Skinny">62mm Skinny $125.00 USD</option>
       <input type="hidden" name="currency_code" value="USD">
       <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
