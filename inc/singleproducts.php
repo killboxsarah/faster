@@ -106,7 +106,7 @@ $singleproducts[103] = array(
         Height: 59mm <br>
         Contact Patch: 34.5mm <br>
         Total Width: 38.5mm<br>
-        Durometer: 90a | 94a,
+        Durometer: 88a | 92a,
         <br><br>
         <b>Skinny</b><br>
         Height: 62mm <br>
