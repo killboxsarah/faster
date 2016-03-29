@@ -72,7 +72,7 @@ src="https://www.facebook.com/tr?id=1724683967754394&ev=PageView&noscript=1"
 
     <div class="large-6 small-12 columns">
           <ul class="panel frame pricing-table left-side john">
-             <center><a  href="singlecomponents"><img src="images/fly.jpg" alt="Single Component" style="max-height:349px;"></a></center>
+             <center><a  href="flywheel"><img src="images/fly.jpg" alt="Single Component" style="max-height:349px;"></a></center>
             <li class="price" style="font-size:1.1em; text-aligh:center;background-color: #e3e3e3;font-size: 1.4em;padding-bottom: 0px;padding-top: 3%;">FLYWHEEL</li>
             </ul>
           </div>
