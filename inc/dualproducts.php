@@ -13,16 +13,23 @@ $dualproducts[101] = array(
         Total Width: 38.5mm<br>
         Durometer: 90a | 94a <br>
         Profile: 59 Bevel OR 62mm Skinny",
-    "paypal" =>'<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="3D5ULQN9FRAV4">
-    <input type="hidden" name="on0" value="Height/Profile">Height/Profile</td></tr><tr><td><select name="os0">
-      <option value="62mm Skinny">62mm Skinny $155.00 USD</option>
-      <option value="59mm Bevel">59mm Bevel $155.00 USD</option>
-    </select> 
-    <input type="hidden" name="currency_code" value="USD">
-    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-    </form>'
+    "paypal" =>'<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="9JJP6PEJ3DMUC">
+<input type="hidden" name="on0" value="Size and Profile">Size and Profile</td></tr><tr><td><select name="os0">
+    <option value="62mm Skinny">62mm Skinny $155.00 USD</option>
+    <option value="62mm Skinny with Lumen Hub">62mm Skinny with Lumen Hub $170.00 USD</option>
+    <option value="59mm Bevel">59mm Bevel $155.00 USD</option>
+    <option value="59mm Bevel with Lumen Hub">59mm Bevel with Lumen Hub $170.00 USD</option>
+</select> <input type="hidden" name="on1" value="Optional Lumen Hub Color">Optional Lumen Hub Color</td></tr><tr><td><select name="os1">
+    <option value="Red">Red </option>
+    <option value="Purple">Purple </option>
+</select> 
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+'
         );
 
 $dualproducts[102] = array(
@@ -36,17 +43,25 @@ $dualproducts[102] = array(
         Total Width: 38.5mm<br>
         Durometer: 93a | 96a <br>
         Profile: 59 Bevel OR 62mm Skinny",
-    "paypal" =>'<form target="paypal"action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="8TZNSU6R2E5X4">
-    <input type="hidden" name="on0" value="Height/Profile">Height/Profile</td></tr><tr><td><select name="os0">
-      <option value="62mm Skinny">62mm Skinny $155.00 USD</option>
-      <option value="59mm Bevel">59mm Bevel $155.00 USD</option>
-    </select>
-    <input type="hidden" name="currency_code" value="USD">
-    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-    </form>'
-);
+    "paypal" => '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="W8LB8VS3WV3XY">
+        <input type="hidden" name="on0" value="Size and Profile">Size and Profile</td></tr><tr><td><select name="os0">
+            <option value="62mm Full">62mm Full $145.00 USD</option>
+            <option value="62mm Full with Lumen Hub">62mm Full with Lumen Hub $160.00 USD</option>
+            <option value="62mm Skinny">62mm Skinny $155.00 USD</option>
+            <option value="62mm Skinny with Lumen Hub">62mm Skinny with Lumen Hub $170.00 USD</option>
+            <option value="59mm Bevel">59mm Bevel $155.00 USD</option>
+            <option value="59mm Bevel with Lumen Hub">59mm Bevel with Lumen Hub $170.00 USD</option>
+        </select> <input type="hidden" name="on1" value="Optional Lumen Hub Color">Optional Lumen Hub Color</td></tr><tr><td><select name="os1">
+            <option value="Red">Red </option>
+            <option value="Purple">Purple </option>
+        </select> 
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>'
+        );
 
 $dualproducts[103] = array(
     "name" => "Demirojo Complete",
@@ -59,18 +74,23 @@ $dualproducts[103] = array(
         Total Width: 38.5mm or 42.5mm<br>
         Durometer: 92a | 96a <br>
         Profile: 59 Bevel OR 62mm Skinny OR 62mm Full Width",
-    "paypal" => '<form target="paypal"action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    "paypal" => '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="78QR7CDQRM3HC">
-<input type="hidden" name="on0" value="Height/Profile">Height/Profile</td></tr><tr><td><select name="os0">
-  <option value="62mm Skinny">62mm Skinny $155.00 USD</option>
-  <option value="59mm Bevel">59mm Bevel $155.00 USD</option>
-  <option value="62mm Full Width">62mm Full Width $145.00 USD</option>
-</select>
+<input type="hidden" name="hosted_button_id" value="KYZBSFNQ2DDWN">
+<input type="hidden" name="on0" value="Size and Profile">Size and Profile</td></tr><tr><td><select name="os0">
+    <option value="59mm Bevel">59mm Bevel $155.00 USD</option>
+    <option value="59mm Bevel with Lumen Hub">59mm Bevel with Lumen Hub $170.00 USD</option>
+    <option value="Full">Full $145.00 USD</option>
+    <option value="Full with Lumen Hub">Full with Lumen Hub $160.00 USD</option>
+</select><input type="hidden" name="on1" value="Optional Lumen Hub Color">Optional Lumen Hub Color</td></tr><tr><td><select name="os1">
+    <option value="Red">Red </option>
+    <option value="Purple">Purple </option>
+</select> 
 <input type="hidden" name="currency_code" value="USD">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>'
+</form>
+'
 );
 
 $dualproducts[104] = array(
@@ -85,18 +105,23 @@ $dualproducts[104] = array(
         Contact Patch: 37.5mm <br>
         Total Width: 42.5mm<br>
         Durometer: 97a", 
-    "paypal" => '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-bottom: 0px;">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="5YPGEVCS7CKQE">
-   
-    <input type="hidden" name="on0" value="Quantity">Quantity<select name="os0">
-      <option value="Set of 8">Set of 8 $148.00 USD</option>
-      <option value="Set of 4">Set of 4 $74.00 USD</option>
-    </select> 
-    
-    <input type="hidden" name="currency_code" value="USD">
-    <center><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></center>
-    </form>'
+    "paypal" => '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="ZH492DJ3WJRAY">
+<input type="hidden" name="on0" value="Size and Profile">Size and Profile</td></tr><tr><td><select name="os0">
+    <option value="62mm Skinny">62mm Skinny $155.00 USD</option>
+    <option value="62mm Skinny with Lumen Hubs">62mm Skinny with Lumen Hubs $170.00 USD</option>
+    <option value="Full">Full $145.00 USD</option>
+    <option value="Full with Lumen Hub">Full with Lumen Hub $160.00 USD</option>
+</select> <input type="hidden" name="on1" value="Optional Lumen Hub Color">Optional Lumen Hub Color</td></tr><tr><td><select name="os1">
+    <option value="Red">Red </option>
+    <option value="Purple">Purple </option>
+</select> 
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+'
         );
 
 $dualproducts[105] = array(
