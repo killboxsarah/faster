@@ -41,16 +41,17 @@ $singleproducts[101] = array(
         Total Width: 38.5mm<br>
         Durometer: 92a | 96a",
 
-      "paypal" => 'form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="LWHW5K5GCG78N">
-      <input type="hidden" name="on0" value="Height/Profile">Height/Profile</td></tr><tr><td><select name="os0">
-        <option value="59mm Bevel">59mm Bevel $125.00 USD</option>
-      </select> 
-      <input type="hidden" name="currency_code" value="USD">
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-      </form>'
+      "paypal" => '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="H9VNCYQNDJG68">
+<input type="hidden" name="on0" value="Height/Profile">Height/Profile</td></tr><tr><td><select name="os0">
+  <option value="62mm Skinny">62mm Skinny $125.00 USD</option>
+  <option value="59mm Bevel">59mm Bevel $125.00 USD</option>
+</select> 
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>'
         );
 
 $singleproducts[102] = array(

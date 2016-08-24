@@ -247,16 +247,16 @@ body {
   font-size: 100%; }
 
 body {
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/banner_6.png");
   background-repeat: repeat;
-  background-size: 100%;
-  background-position: center top; 
-  margin: 0px;
+  background-size: 35%;
+/*  background-position: left; */
+  background-attachment: fixed;
   font-family: "montserrat", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.25;
-  position: relative;
+  position: left;
   cursor: default;  }
 
 a:hover {
@@ -4507,7 +4507,7 @@ ul.pagination {
 .panel.product {
     -webkit-border-radius: 3px;
     background-color: whitesmoke;
-/*    opacity: .95;*/
+    opacity: .95;
     border-radius: 3px;
     width: 100%;
     padding-bottom: 4%; }

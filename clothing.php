@@ -1,28 +1,15 @@
 <?php 
-$pagetitle = "Faster Wheels"; 
+$pagetitle = "Apparel"; 
 include('inc/header.php'); 
-include ("inc/singleproducts.php"); 
-
-// $product_id = 102;
-// $product = $singleproducts[$product_id];
-
+include ("inc/apparels.php"); 
 $product_id = $_GET["id"];
-$product = $singleproducts[$product_id];
+$product = $apparels[$product_id];
 
 ?>
 
-<!-- <div class="landing" style="margin-top:-5%;">
-  <img src="images/website_header.jpg">  
-</div> -->
-
-<div class="landing" style="margin-top:-19%;">
-  <img src="images/flywheel_promo.jpg">  
-</div>
-
-
  <div class="row">
     <div class="large-12 small-12 columns">
-	<div class ="panel landings full-height" style="opacity:1;">
+	<div class ="panel landings" style="opacity:1;">
 		<div class="section page">
 			<div class="breadcrumb"><a href="index" style="color:#662e91;">Detroit Skate Factory</a>
 				<br><br>
@@ -51,7 +38,7 @@ $product = $singleproducts[$product_id];
 		</div>
 	</div>
 </div>
-
+<hr>
 <?php
 include('inc/footer.php'); ?>
 

@@ -24,7 +24,7 @@
   <nav class="top-bar" data-topbar>
   <ul class="title-area">
     <li class="name">
-      <h1><a href="index">Faster Skates</a></h1>
+      <h1><a href="index">Detroit Skate Factory</a></h1>
     </li>
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
   </ul>
@@ -33,9 +33,11 @@
     <!-- Right Nav Section -->
         <ul class="right">
      <!--      <li><a href="dualwheels">WHEELS</a></li> -->
-          <li><a href="dealer">DEALERS</a></li>
+          <li><a href="wheels">WHEELS</a></li>
+          <li><a href="apparel">APPAREL</a></li>
           <li><a href="coaching">COACHING</a></li>
-          <li><a href="http://fastersoapbox.blogspot.com/" target="blank;">BLOG</a></li>
+          <li><a href="dealer">DEALERS</a></li>
+          
         </ul>
   </section>
 </nav>

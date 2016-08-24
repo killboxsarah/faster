@@ -1,44 +1,39 @@
 
  <div class="panel contact full-height" style="padding-top:0px; padding-bottom:0px;">
-     <p class="detail">CONTACT <span class="name" style="color:#662e91">FASTER</span> </p>
+     <p class="detail">CONTACT <span class="name" style="color:#662e91">DSF</span> </p>
+         
          <div class="large-12 columns">
 
-<div class="large-7 small-12 columns" style="margin-top:7%;">
-      <a href="https://www.facebook.com/FasterSkates" alt="Facebook">
-        <div class="large-3 small-2 columns" id="fb"></div>
-      </a>
+         <div class="large-1 small-12 columns" style="margin-bottom:3%; margin-right:2%;">
+            <a href="https://www.facebook.com/FasterSkates" alt="Facebook">
+              <div class="large-2 small-2 columns" id="fb"></div></a>
+              </div>
 
-      <a href="https://www.instagram.com/FasterSkates" alt="Instagram">
-        <div class="large-3 small-2 columns" id="insta"></div>
-      </a>
+           <div class="large-1 small-12 columns" style="margin-bottom:3%;">
+            <a href="https://www.instagram.com/FasterSkates" alt="Instagram">
+              <div class="large-2 small-2 columns" id="insta"></div>
+            </a>
+            </div>
 
-      <a href="http://fastersoapbox.blogspot.com" alt="Blog">
-        <div class="large-3 small-2 columns" id="blogger"></div>
-      </a>
+          <center><div class="large-3 small-12 columns" style="margin-top:3%; ">
+            <h5> 
+            Detroit, MI 
+          </h5></div></center> 
 
-      <a href="https://www.youtube.com/channel/UC2fZSQU7kLqOnDsehl5c1qw" alt="You Tube">
-        <div class="large-3 small-2 columns" id="yt"></div>
-      </a>
-          
-      <a href="https://plus.google.com/+Fasterskatesg/posts" alt="Google+">
-        <div class="large-3 small-2 columns" id="gp"></div>
-      </a>
-    </div>
+           <div class="large-3 small-12 columns" style="margin-top:3%; ">
+            <h5> 
+            P: 512.897.3271
+          </h5></div>
 
-          <div class="large-5 small-12 columns" style="margin-top:7px;">
-     <h5> 
-        FASTER Skates is based in Austin, TX. <br>
-        <br>
-        Faster Skates <br>
-        4525 Rimrock Trail <br>
-        Austin, TX 78723 <br>
-        <br>
-        P:512.897.3271<br>
-        <a href="mailto:info@fasterskates.com">E:info@fasterskates.com</a>
-      </h5>
-      <br>
-      <br>
+           <div class="large-4 small-12 columns" style="margin-top:3%; margin-right:-2%; ">
+            <h5> 
+            <a href="mailto:info@fasterskates.com">E: info@fasterskates.com</a>
+          </h5></div>
+
       </div>
+       
+
+
 
    <!--  <div class="large-6 hide-for-small columns" style="
       padding-left: 30px;
