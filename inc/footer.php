@@ -66,15 +66,9 @@
 
  <script type="text/javascript" src="bower_components/mixitup/build/jquery.mixitup.min.js"></script>
 
- <script src="bower_components/modernizr/modernizr.js"></script>
-
-<!--  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
- <script type="text/javascript" src="bower_components/mixitup/build/jquery.mixitup.min.js"></script> -->
  <script type="text/javascript" src="bower_components/sticky/jquery.sticky.js"></script>
- <script type="text/javascript" src="bower_components/leaflet-dist/leaflet.js"></script>
- <script type="text/javascript" src="bower_components/Leaflet.MakiMarkers/Leaflet.MakiMarkers.js"></script>
  <script type="text/javascript" src="js/app.js"></script>
- <script src="bower_components/foundation/js/foundation.min.js"></script>
+ <script src="bower_components/foundation/dist/foundation.min.js"></script>
   <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

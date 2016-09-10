@@ -85,5 +85,10 @@ $section = "Dealers";
         <h5> &nbsp;</h5>
         <h5> &nbsp;</h5>
 </div>
+<script type="text/javascript" src="bower_components/leaflet-dist/leaflet.js"></script>
+<script type="text/javascript" src="bower_components/Leaflet.MakiMarkers/Leaflet.MakiMarkers.js"></script>
   <?php
 include('inc/footer.php'); ?>
+<script type="text/javascript">
+  faster.initLeaflet();
+</script>
