@@ -10,24 +10,16 @@ faster.initFoundation = function() {
 // 		resizeContainer: false,
 // 		showOnLoad: 'nav'
 // 	});
+//
 
-$(function(){
-    $('#Container').mixItUp();
-
-    $('#buy_button').click(function(e) {
-        e.preventDefault();
-        $('#paypal_form').submit();
-    });
-
-	$("#wheel").click(function() {
-		$(this).attr('background-image', 'img/roll_over/Wheels_Rollover.jpg');
-	});
-    $(".sticky-element").sticky({ topSpacing: 0});
-
-
+faster.initLeaflet = function() {
     var map = L.map('map').setView([7.1881, 21.0936], 1);
+    L.MakiMarkers.accessToken = "pk.eyJ1IjoibWFya2pwcm90YXMiLCJhIjoiY2lzd2kxdDJ4MDU5dDMwcXBhNDQ0aDV2YiJ9.KqLj72yCowy_cW2v4h9gYQ";
     map.scrollWheelZoom.disable();
-    L.tileLayer('http://129.206.74.245:8008/tms_rg.ashx?x={x}&y={y}&z={z}', { }).addTo(map);
+    var OpenMapSurfer_Grayscale = L.tileLayer('http://korona.geog.uni-heidelberg.de/tiles/roadsg/x={x}&y={y}&z={z}', {
+      maxZoom: 19
+    });
+    OpenMapSurfer_Grayscale.addTo(map);
 
      var dealers = [{name:'5th Blocker Skates',address:'143 West Regent Street<br /> Glasgow, G2 2SG<br /><a target="_blank" href="http://www.5thblockerskates.co.uk/">http://www.5thblockerskates.co.uk/</a>',lat:55.863445, lng: -4.260689},
         {name:'808 Rollerskate',address:'15 Stone Gate Road<br /> Central Valley, NY, 10917<br /><a target="_blank" href="http://www.808rollerskate.com/">http://www.808rollerskate.com/</a>',lat:41.33205, lng: -74.11218},
@@ -69,6 +61,22 @@ $(function(){
         L.marker([value['lat'], value['lng']], {icon: icon}).addTo(map).
             bindPopup(value['name'] + "<br /> " + value['address']);
     });
+
+};
+
+$(function(){
+    $('#Container').mixItUp();
+
+    $('#buy_button').click(function(e) {
+        e.preventDefault();
+        $('#paypal_form').submit();
+    });
+
+	$("#wheel").click(function() {
+		$(this).attr('background-image', 'img/roll_over/Wheels_Rollover.jpg');
+	});
+    $(".sticky-element").sticky({ topSpacing: 0});
+
 
     $( ".nav" ).on( "click", function() {
         // remove the class from our peers

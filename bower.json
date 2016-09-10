@@ -1,9 +1,9 @@
 {
   "name": "faster-skates-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": "true",
   "dependencies": {
-    "foundation": "zurb/bower-foundation#5.1.1",
+    "foundation": "zurb/foundation-sites#6.2.3",
     "mixitup": "2.1.5",
     "sticky": "garand/sticky",
     "Leaflet.MakiMarkers": "jseppi/Leaflet.MakiMarkers"
